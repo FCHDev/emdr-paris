@@ -12,35 +12,6 @@ const Accueil = () => {
                     </h1>
                 </div>
             </div>
-            <div className="container mx-auto mt-10 p-3 font-classic bg-orangePale rounded-xl">
-                <h2 className="text-3xl text-bleu text-center font-title font-semibold pb-8">Avertissement</h2>
-                <p className="pb-3 text-lg">Comme chaque domaine de connaissance l’approche EMDR a développé un vocabulaire
-                    propre. Mais
-                    rassurez-vous pas de « novlangue » avec l’EMDR. Quelques termes techniques certes que nous
-                    expliciterons via le petit pictogramme suivant.
-                    Vous allez le découvrir : l’EMDR ce sont des outils simples... qui permettent de traiter des
-                    phénomènes physiques et corporels complexes.
-                </p>
-                <p className="pb-3 text-lg">
-                    Vous trouverez sur ce site différentes informations et cas cliniques concernant l’approche de la
-                    thérapie EMDR. La rédaction du contenu n’engage que son auteur.
-                    L’objectif de ce site n’est certainement pas de constituer une boîte à outils pour que vous puissiez
-                    pratiquer l’EMDR tout seul chez vous (cf la section). S’il existe un savoir sur la psychologie (il
-                    existe bien des facs de psycho 😀) rien ne remplace l’expérience de la thérapie. Une thérapie c’est
-                    la rencontre entre un praticien dûment formé (cf section : qui peut pratiquer l’EMDR) et un patient
-                    qui a envie de guérir… et qui possède en lui les ressources pour guérir.
-                </p>
-                <p className="text-lg">
-                    Je m’appelle <span className="font-semibold text-bleu">Étienne Duménil</span> et je suis psychologue clinicien/psychanalyste et thérapeute EMDR.
-                    J’exerce à Paris 9ème (Madeleine/Saint-Lazare/Opéra) et à Pontoise dans le 95. Vous trouvez toutes
-                    les informations nécessaires sur ma pratique sur mon autre site internet :
-                    <br/> <a className="font-semibold pl-1 text-lg text-vert" href="https://www.psy95.paris"
-                             rel="noopener noreferrer"
-                             target="_blank">
-                    www.psy95.paris
-                </a>
-                </p>
-            </div>
 
             <div className="container mx-auto mt-10 p-3 font-classic rounded-xl">
                 <h2 className="text-3xl text-bleu font-title font-semibold pb-8 text-center">Pourquoi j’aime être thérapeute EMDR ?</h2>
@@ -135,6 +106,36 @@ const Accueil = () => {
                     affects et mieux ça marche…C’est inscrit dans l’ADN des êtres humains : nous avons besoin de voir
                     pour croire. Donc pour qu’une croyance positive s’installe il faut d’abord faire ressentir dans le
                     corps. <br/>Et ce n'est pas toujours facile…
+                </p>
+            </div>
+
+            <div className="container mx-auto mt-10 p-3 font-classic bg-orangePale rounded-xl">
+                <h2 className="text-3xl text-bleu text-center font-title font-semibold pb-8">Avertissement</h2>
+                <p className="pb-3 text-lg">Comme chaque domaine de connaissance l’approche EMDR a développé un vocabulaire
+                    propre. Mais
+                    rassurez-vous pas de « novlangue » avec l’EMDR. Quelques termes techniques certes que nous
+                    expliciterons via le petit pictogramme suivant.
+                    Vous allez le découvrir : l’EMDR ce sont des outils simples... qui permettent de traiter des
+                    phénomènes physiques et corporels complexes.
+                </p>
+                <p className="pb-3 text-lg">
+                    Vous trouverez sur ce site différentes informations et cas cliniques concernant l’approche de la
+                    thérapie EMDR. La rédaction du contenu n’engage que son auteur.
+                    L’objectif de ce site n’est certainement pas de constituer une boîte à outils pour que vous puissiez
+                    pratiquer l’EMDR tout seul chez vous (cf la section). S’il existe un savoir sur la psychologie (il
+                    existe bien des facs de psycho 😀) rien ne remplace l’expérience de la thérapie. Une thérapie c’est
+                    la rencontre entre un praticien dûment formé (cf section : qui peut pratiquer l’EMDR) et un patient
+                    qui a envie de guérir… et qui possède en lui les ressources pour guérir.
+                </p>
+                <p className="text-lg">
+                    Je m’appelle <span className="font-semibold text-bleu">Étienne Duménil</span> et je suis psychologue clinicien/psychanalyste et thérapeute EMDR.
+                    J’exerce à Paris 9ème (Madeleine/Saint-Lazare/Opéra) et à Pontoise dans le 95. Vous trouvez toutes
+                    les informations nécessaires sur ma pratique sur mon autre site internet :
+                    <br/> <a className="font-semibold pl-1 text-lg text-vert" href="https://www.psy95.paris"
+                             rel="noopener noreferrer"
+                             target="_blank">
+                    www.psy95.paris
+                </a>
                 </p>
             </div>
 
