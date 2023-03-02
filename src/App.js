@@ -21,13 +21,13 @@ function App() {
             <div className="mx-auto">
                 <Routes>
                     <Route exact path="/" element={<Accueil/>}/>
-                    <Route path="/bougerlesyeux" element={<BougerLesYeux/>}/>
-                    <Route path="/emdrefficace" element={<EmdrEfficace/>}/>
-                    <Route path="/emdrdecouvert" element={<EmdrDecouvert/>}/>
-                    <Route path="/huitphases" element={<EmdrPhasesProtocol/>}/>
-                    <Route path="/indication-clinique" element={<EmdrClinique/>}/>
-                    <Route path="/faq" element={<Faq/>}/>
-                    <Route path="/contact" element={<Contact/>}/>
+                    <Route exact path="/bougerlesyeux" element={<BougerLesYeux/>}/>
+                    <Route exact path="/emdrefficace" element={<EmdrEfficace/>}/>
+                    <Route exact path="/emdrdecouvert" element={<EmdrDecouvert/>}/>
+                    <Route exact path="/huitphases" element={<EmdrPhasesProtocol/>}/>
+                    <Route exact path="/indication-clinique" element={<EmdrClinique/>}/>
+                    <Route exact path="/faq" element={<Faq/>}/>
+                    <Route exact path="/contact" element={<Contact/>}/>
                     <Route path="*" element={<Accueil />} />
                 </Routes>
             </div>
