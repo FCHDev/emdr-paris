@@ -125,15 +125,15 @@ const Navbar = () => {
                                             {link.sublinks && link.sublinks.map((sublink, index) => (
                                                 <Menu.Item key={index}>
                                                     {({active}) => (
-                                                        <a
-                                                            href={sublink.url}
+                                                        <NavLink
+                                                            to={sublink.url}
                                                             className={classNames(
                                                                 active ? 'bg-gray-100 text-gray-900 z-30' : 'text-gray-700',
                                                                 'block px-4 py-2 text-sm z-30'
                                                             )}
                                                         >
                                                             {sublink.name}
-                                                        </a>
+                                                        </NavLink>
                                                     )}
                                                 </Menu.Item>
                                             ))}
