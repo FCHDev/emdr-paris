@@ -15,7 +15,7 @@ const Accueil = () => {
 
             <div className="container mx-auto mt-10 p-3 font-classic rounded-xl">
                 <h2 className="text-3xl text-bleu font-title font-semibold pb-8 text-center">Pourquoi j’aime être thérapeute EMDR ?</h2>
-                <p className="pb-3 text-lg">
+                <p className="pb-3 sm:text-lg 2xl:text-xl">
                     <span className="underline font-semibold">J’aime le postionnement EMDR</span> : pourquoi je suis
                     devenu thérapeute EMDR ? <br/>
                     Thérapie complète et efficace qui <span className="underline">aide vraiment les personnes</span>.
@@ -27,27 +27,27 @@ const Accueil = () => {
                     je n’ai
                     pû que m’incliner devant la solidité des effets cliniques positifs pour les patients.
                 </p>
-                <p className="pb-3 text-lg">
+                <p className="pb-3 sm:text-lg 2xl:text-xl">
                     Enfin s’appuyer sur le protocole a quelque chose de solide. Les avancées thérapeutiques sont pour
                     ainsi dire mesurables… C’est comme pour un pilote de rallye : s’il n’a pas d’abord confiance dans sa
                     voiture, il ne pourra pas être performant dans sa conduite…
                 </p>
-                <p className="pb-3 text-lg">
+                <p className="pb-3 sm:text-lg 2xl:text-xl">
                     L’EMDR est la forme de thérapie qui, ses dernières années, a concentré le plus d’études et de
                     recherches. Faire partie de la « communauté EMDR » c’est d’une part ne pas être seule et d’autre
                     part avoir le sentiment de participer au sens de l’histoire…
                 </p>
-                <p className="pb-3 text-lg">
+                <p className="pb-3 sm:text-lg 2xl:text-xl">
                     Être proche du patient (psychiquement et physiquement pendant les désensibilisations). Leur faire
                     confiance, être dans l’espérance : « croire en son patient » même si ce dernier ne croit pas encore
                     en lui... En EMDR il n’est pas rare de prononcer des phrases comme <span className='italic'>« je sais que c’est dur. Vous
                     faîtes un super boulot. Vous êtes capable de traverser tout cela »</span>.
                 </p>
-                <p className="pb-1 text-lg">
+                <p className="pb-1 sm:text-lg 2xl:text-xl">
                     J’utilise régulièrement deux métaphores pour rendre concret mon propos : <span className="font-semibold text-vert">le thérapeute-sherpa</span> ou
                     alors <span className="font-semibold text-vert">le soleil et le lac gelé</span> :
                 </p>
-                <p className="pb-1 px-16 text-lg">
+                <p className="pb-1 px-16 sm:text-lg 2xl:text-xl">
                     <span className="font-semibold text-vert">"Le thérapeute-sherpa"</span> : résoudre ses traumas c’est
                     comme une expédition en haute-montagne. D’une part il faut y être préparé et d’autre part il faut
                     être accompagné de quelqu’un qui connaît la montagne. Le sherpa ne fait pas à la place de
@@ -55,7 +55,7 @@ const Accueil = () => {
                     l’ascension. En EMDR c’est vous qui allez tenter l’exploit… et je serai là à vos côtés pour vous
                     guider.
                 </p>
-                <p className="pb-5 px-16 text-lg">
+                <p className="pb-5 px-16 sm:text-lg 2xl:text-xl">
                     <span className="font-semibold text-vert">"Le soleil et le lac gelé" </span> : Le mal-être
                     psychologique s’apparente a un lac gelé. Tout a l’air mort, triste et figé à l’extérieur. Mais
                     faîtes un trou dans la glace et vous pourrez constater que les poissons - eux – sont bien vivants.
@@ -64,7 +64,7 @@ const Accueil = () => {
                     utilisent en fin de traitement : c’est bizarre rien n’a changé mais tout à changer. A moi d’ajouter
                     : « et vous allez mieux » ? Et au patient de répondre dans un sourire : « oui je vais mieux ! ».
                 </p>
-                <p className="pb-3 text-lg">
+                <p className="pb-3 sm:text-lg 2xl:text-xl">
                     <span className="underline font-semibold text-bleu">Augmenter leurs ressources</span> <br/>
                     Il est communément admis qu’à un psy « on vient dire ses problèmes ». On vient parler de ce qui ne
                     va pas. <br/>Je me rappelle avoir été très étonné lorsque en formation EMDR le formateur a commencé par
@@ -73,11 +73,11 @@ const Accueil = () => {
                     problématique du patient, ses symptômes etc… Têtu le formateur enchaîna : <span className='italic'>« donc votre patient est
                     perturbé : qu’avez-vous mis en place pour le stabiliser émotionnellement ? »</span>.
                 </p>
-                <p className="pb-3 text-lg">
+                <p className="pb-3 sm:text-lg 2xl:text-xl">
                     Ce fut une grande leçon clinique pour moi : si la thérapie c’est pouvoir enfin dire ce qui ne va
                     pas, c’est tout autant améliorer et agrandir ce qui fonctionne déjà…
                 </p>
-                <p className="pb-3 bg-vertflashPale p-3 rounded-xl text-lg">
+                <p className="pb-3 bg-vertflashPale p-3 rounded-xl sm:text-lg 2xl:text-xl">
                     <span className="font-semibold">Prenons un exemple</span> <br/>Accrochez-vous : un champion de
                     Tennis joue son premier match à Roland-Garros dans une semaine…Il possède un super coup droit mais
                     un mauvais revers. A votre avis, quel coup que son entraineur va-t-il lui faire travailler pendant
@@ -101,7 +101,7 @@ const Accueil = () => {
                     J’ai accès à des associations libres d’une grande clarté. Pendant les phases de désensibilisations
                     il est demandé d’intervenir le moins possible, de ne pas influencer, de laisser faire.
                 </p>
-                <p>
+                <p className="pb-3 text-lg">
                     Cela rejoint une intuition clinique qui se vérifie : plus on est près du corps, au niveau des
                     affects et mieux ça marche…C’est inscrit dans l’ADN des êtres humains : nous avons besoin de voir
                     pour croire. Donc pour qu’une croyance positive s’installe il faut d’abord faire ressentir dans le
@@ -109,16 +109,16 @@ const Accueil = () => {
                 </p>
             </div>
 
-            <div className="container mx-auto mt-10 p-3 font-classic bg-orangePale rounded-xl">
+            <div className="mt-10 p-3 font-classic bg-orangePale rounded-xl">
                 <h2 className="text-3xl text-bleu text-center font-title font-semibold pb-8">Avertissement</h2>
-                <p className="pb-3 text-lg">Comme chaque domaine de connaissance l’approche EMDR a développé un vocabulaire
+                <p className="container mx-auto pb-3 text-lg">Comme chaque domaine de connaissance l’approche EMDR a développé un vocabulaire
                     propre. Mais
                     rassurez-vous pas de « novlangue » avec l’EMDR. Quelques termes techniques certes que nous
                     expliciterons via le petit pictogramme suivant.
                     Vous allez le découvrir : l’EMDR ce sont des outils simples... qui permettent de traiter des
                     phénomènes physiques et corporels complexes.
                 </p>
-                <p className="pb-3 text-lg">
+                <p className="container mx-auto pb-3 text-lg">
                     Vous trouverez sur ce site différentes informations et cas cliniques concernant l’approche de la
                     thérapie EMDR. La rédaction du contenu n’engage que son auteur.
                     L’objectif de ce site n’est certainement pas de constituer une boîte à outils pour que vous puissiez
@@ -127,7 +127,7 @@ const Accueil = () => {
                     la rencontre entre un praticien dûment formé (cf section : qui peut pratiquer l’EMDR) et un patient
                     qui a envie de guérir… et qui possède en lui les ressources pour guérir.
                 </p>
-                <p className="text-lg">
+                <p className="container mx-auto text-lg">
                     Je m’appelle <span className="font-semibold text-bleu">Étienne Duménil</span> et je suis psychologue clinicien/psychanalyste et thérapeute EMDR.
                     J’exerce à Paris 9ème (Madeleine/Saint-Lazare/Opéra) et à Pontoise dans le 95. Vous trouvez toutes
                     les informations nécessaires sur ma pratique sur mon autre site internet :

@@ -29,7 +29,7 @@ const Navbar = () => {
                     "url": "/bougerlesyeux",
                 },
                 {
-                    "name": "Comment l’EMDR est-il efficace ?",
+                    "name": "Pourquoi l’EMDR est-il efficace ?",
                     "url": "/emdrefficace",
                 },
                 {
@@ -49,11 +49,11 @@ const Navbar = () => {
                 },
                 {
                     "name": "C'est quoi la méthode EMDR ?",
-                    "url": "/whyemdr",
+                    "url": "/methode",
                 },
                 {
                     "name": "Comment guérir un traumatisme ?",
-                    "url": "/guerirtraumatisme",
+                    "url": "/traumatisme",
                 },
             ]
         },

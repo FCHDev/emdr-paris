@@ -10,6 +10,10 @@ import BougerLesYeux from "./pages/BougerLesYeux";
 import EmdrEfficace from "./pages/EmdrEfficace";
 import EmdrDecouvert from "./pages/EmdrDecouvert";
 import EmdrPhasesProtocol from "./pages/EmdrPhasesProtocol";
+import EmdrMethode from "./pages/EmdrMethode";
+import EmdrTrauma from "./pages/EmdrTrauma";
+import Dico from "./pages/Dico";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -25,12 +29,16 @@ function App() {
                     <Route exact path="/emdrefficace" element={<EmdrEfficace/>}/>
                     <Route exact path="/emdrdecouvert" element={<EmdrDecouvert/>}/>
                     <Route exact path="/huitphases" element={<EmdrPhasesProtocol/>}/>
+                    <Route exact path="/methode" element={<EmdrMethode/>}/>
+                    <Route exact path="/traumatisme" element={<EmdrTrauma/>}/>
                     <Route exact path="/indication-clinique" element={<EmdrClinique/>}/>
                     <Route exact path="/faq" element={<Faq/>}/>
+                    <Route exact path="/dico" element={<Dico/>}/>
                     <Route exact path="/contact" element={<Contact/>}/>
                     <Route path="*" element={<Accueil />} />
                 </Routes>
             </div>
+            <Footer/>
         </BrowserRouter>
     );
 }

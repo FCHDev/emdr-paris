@@ -8,7 +8,7 @@ const EmdrEfficace = () => {
                 <img className="absolute -top-[200px] w-full object-cover" src={imageEfficace} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-30 ">
                     <h1 className="text-5xl font-title font-semibold pl-32 pt-20">
-                        Comment l’EMDR est-il efficace ?
+                        Pourquoi l’EMDR est-il efficace ?
                     </h1>
                 </div>
             </div>
