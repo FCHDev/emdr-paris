@@ -28,6 +28,7 @@ function App() {
                     <Route path="/indication-clinique" element={<EmdrClinique/>}/>
                     <Route path="/faq" element={<Faq/>}/>
                     <Route path="/contact" element={<Contact/>}/>
+                    <Route path="*" element={<Accueil />} />
                 </Routes>
             </div>
         </BrowserRouter>
