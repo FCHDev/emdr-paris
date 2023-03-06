@@ -58,7 +58,7 @@ const Navbar = () => {
             ]
         },
         {
-            "name": "EMDR : indication-clinique",
+            "name": "Indication-clinique",
             "url": "/indication-clinique",
             "icon": iconClinic
         },
@@ -92,7 +92,7 @@ const Navbar = () => {
                     <Menu as="div" className="relative inline-block text-left font-classic" key={index}>
                         {link.sublinks
                             ? <Menu.Button
-                                className="inline-flex w-full justify-center items-center rounded-md bg-white px-4 py-2 2xl:text-xl text-base font-medium text-bleu hover:bg-gray-50 focus:outline-none">
+                                className="inline-flex w-full justify-center items-center rounded-md bg-white px-4 py-2 2xl:text-xl text-sm font-semibold text-bleu hover:bg-gray-50 focus:outline-none">
                                 <img className="h-[20px] w-auto pr-2" src={link.icon} alt={link.name}/>
                                 {link.name}
                                 <ChevronDownIcon className={`-mr-1 ml-2 h-5 w-5`}
@@ -101,7 +101,7 @@ const Navbar = () => {
 
                             : <NavLink to={link.url}>
                                 <div
-                                    className="inline-flex w-full justify-center items-center rounded-md bg-white px-4 py-2 2xl:text-xl text-base font-medium text-bleu hover:bg-gray-50 focus:outline-none">
+                                    className="inline-flex w-full justify-center items-center rounded-md bg-white px-4 py-2 2xl:text-xl text-sm font-semibold text-bleu hover:bg-gray-50 focus:outline-none">
                                     <img className="h-[20px] w-auto pr-2" src={link.icon} alt={link.name}/>
                                     {link.name}
                                 </div></NavLink>

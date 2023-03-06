@@ -4,7 +4,7 @@ import francineShapiro from "../assets/images/francine.jpg"
 
 const EmdrDecouvert = () => {
     return (
-        <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10">
+        <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10  xl:mb-[28vh]">
             <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
                 <img className="absolute -top-[200px] w-full object-cover" src={imageDecouvert} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-70 backdrop-blur-md">

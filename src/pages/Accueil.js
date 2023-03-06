@@ -1,5 +1,7 @@
 import React from 'react';
 import imageAccueil from '../assets/images/randonneurcouple.jpeg';
+import soleil from "../assets/images/soleillacgele.jpg";
+import sherpa from "../assets/images/sherpa.jpg";
 
 const Accueil = () => {
     return (
@@ -14,7 +16,8 @@ const Accueil = () => {
             </div>
 
             <div className="container mx-auto mt-10 p-3 font-classic rounded-xl">
-                <h2 className="text-3xl text-bleu font-title font-semibold pb-8 text-center">Pourquoi j’aime être thérapeute EMDR ?</h2>
+                <h2 className="text-3xl text-bleu font-title font-semibold pb-8 text-center">Pourquoi j’aime être
+                    thérapeute EMDR ?</h2>
                 <p className="pb-3 sm:text-lg 2xl:text-xl">
                     <span className="underline font-semibold">J’aime le postionnement EMDR</span> : pourquoi je suis
                     devenu thérapeute EMDR ? <br/>
@@ -44,30 +47,46 @@ const Accueil = () => {
                     faîtes un super boulot. Vous êtes capable de traverser tout cela »</span>.
                 </p>
                 <p className="pb-1 sm:text-lg 2xl:text-xl">
-                    J’utilise régulièrement deux métaphores pour rendre concret mon propos : <span className="font-semibold text-vert">le thérapeute-sherpa</span> ou
+                    J’utilise régulièrement deux métaphores pour rendre concret mon propos : <span
+                    className="font-semibold text-vert">le thérapeute-sherpa</span> ou
                     alors <span className="font-semibold text-vert">le soleil et le lac gelé</span> :
                 </p>
-                <p className="pb-1 px-16 sm:text-lg 2xl:text-xl">
-                    <span className="font-semibold text-vert">"Le thérapeute-sherpa"</span> : résoudre ses traumas c’est
-                    comme une expédition en haute-montagne. D’une part il faut y être préparé et d’autre part il faut
-                    être accompagné de quelqu’un qui connaît la montagne. Le sherpa ne fait pas à la place de
-                    l’alpiniste. <br/>Simplement il a l’expérience et le recul nécessaire pour pouvoir guider
-                    l’ascension. En EMDR c’est vous qui allez tenter l’exploit… et je serai là à vos côtés pour vous
-                    guider.
-                </p>
-                <p className="pb-5 px-16 sm:text-lg 2xl:text-xl">
-                    <span className="font-semibold text-vert">"Le soleil et le lac gelé" </span> : Le mal-être
-                    psychologique s’apparente a un lac gelé. Tout a l’air mort, triste et figé à l’extérieur. Mais
-                    faîtes un trou dans la glace et vous pourrez constater que les poissons - eux – sont bien vivants.
-                    Le thérapeute est là pour être le soleil. Progressivement la neige fond et tout change alors que
-                    fondamentalement c’est toujours le même endroit…C’est d’ailleurs une phares que les patients
-                    utilisent en fin de traitement : c’est bizarre rien n’a changé mais tout à changer. A moi d’ajouter
-                    : « et vous allez mieux » ? Et au patient de répondre dans un sourire : « oui je vais mieux ! ».
-                </p>
+                <div className="px-3 py-1 rounded-xl mt-3 mb-10 bg-whitePale">
+                    <div className="flex items-center py-2 ">
+                        <img src={sherpa} className="h-[230px] rounded-xl"
+                             alt="sherpas qui portent des sacs en haute montagne"/>
+                        <p className="px-5 sm:text-lg lg:text-xl 2xl:text-2xl">
+                            <span className="font-semibold text-vert">"Le thérapeute-sherpa"</span> : résoudre ses traumas
+                            c’est
+                            comme une expédition en haute-montagne. D’une part il faut y être préparé et d’autre part il
+                            faut
+                            être accompagné de quelqu’un qui connaît la montagne. Le sherpa ne fait pas à la place de
+                            l’alpiniste. <br/>Simplement il a l’expérience et le recul nécessaire pour pouvoir guider
+                            l’ascension. En EMDR c’est vous qui allez tenter l’exploit… et je serai là à vos côtés pour vous
+                            guider.
+                        </p>
+                    </div>
+                    <div className="flex items-center py-2">
+                        <p className="px-5 sm:text-lg lg:text-xl 2xl:text-2xl">
+                            <span className="font-semibold text-vert">"Le soleil et le lac gelé" </span> : Le mal-être
+                            psychologique s’apparente a un lac gelé. Tout a l’air mort, triste et figé à l’extérieur. Mais
+                            faîtes un trou dans la glace et vous pourrez constater que les poissons - eux – sont bien
+                            vivants.
+                            Le thérapeute est là pour être le soleil. Progressivement la neige fond et tout change alors que
+                            fondamentalement c’est toujours le même endroit…C’est d’ailleurs une phares que les patients
+                            utilisent en fin de traitement : c’est bizarre rien n’a changé mais tout à changer. A moi
+                            d’ajouter
+                            : « et vous allez mieux » ? Et au patient de répondre dans un sourire : « oui je vais mieux ! ».
+                        </p>
+                        <img src={soleil} className="h-[230px] rounded-xl"
+                             alt="soleil au-dessus d'un lac gelé avec un enfant qui joue"/>
+                    </div>
+                </div>
                 <p className="pb-3 sm:text-lg 2xl:text-xl">
                     <span className="underline font-semibold text-bleu">Augmenter leurs ressources</span> <br/>
                     Il est communément admis qu’à un psy « on vient dire ses problèmes ». On vient parler de ce qui ne
-                    va pas. <br/>Je me rappelle avoir été très étonné lorsque en formation EMDR le formateur a commencé par
+                    va pas. <br/>Je me rappelle avoir été très étonné lorsque en formation EMDR le formateur a commencé
+                    par
                     me demander : <span className='italic'>« quelles étaient les ressources de mon patient »</span>.
                     Surpris, je tentai d’exposer la
                     problématique du patient, ses symptômes etc… Têtu le formateur enchaîna : <span className='italic'>« donc votre patient est
@@ -77,7 +96,7 @@ const Accueil = () => {
                     Ce fut une grande leçon clinique pour moi : si la thérapie c’est pouvoir enfin dire ce qui ne va
                     pas, c’est tout autant améliorer et agrandir ce qui fonctionne déjà…
                 </p>
-                <p className="pb-3 bg-vertflashPale p-3 rounded-xl sm:text-lg 2xl:text-xl">
+                <p className="pb-3 bg-vertflashPale p-3 rounded-xl sm:text-lg lg:text-xl 2xl:text-2xl mt-3 mb-10">
                     <span className="font-semibold">Prenons un exemple</span> <br/>Accrochez-vous : un champion de
                     Tennis joue son premier match à Roland-Garros dans une semaine…Il possède un super coup droit mais
                     un mauvais revers. A votre avis, quel coup que son entraineur va-t-il lui faire travailler pendant
@@ -111,7 +130,8 @@ const Accueil = () => {
 
             <div className="mt-10 p-3 font-classic bg-orangePale rounded-xl">
                 <h2 className="text-3xl text-bleu text-center font-title font-semibold pb-8">Avertissement</h2>
-                <p className="container mx-auto pb-3 text-lg">Comme chaque domaine de connaissance l’approche EMDR a développé un vocabulaire
+                <p className="container mx-auto pb-3 text-lg">Comme chaque domaine de connaissance l’approche EMDR a
+                    développé un vocabulaire
                     propre. Mais
                     rassurez-vous pas de « novlangue » avec l’EMDR. Quelques termes techniques certes que nous
                     expliciterons via le petit pictogramme suivant.
@@ -128,7 +148,8 @@ const Accueil = () => {
                     qui a envie de guérir… et qui possède en lui les ressources pour guérir.
                 </p>
                 <p className="container mx-auto text-lg">
-                    Je m’appelle <span className="font-semibold text-bleu">Étienne Duménil</span> et je suis psychologue clinicien/psychanalyste et thérapeute EMDR.
+                    Je m’appelle <span className="font-semibold text-bleu">Étienne Duménil</span> et je suis psychologue
+                    clinicien/psychanalyste et thérapeute EMDR.
                     J’exerce à Paris 9ème (Madeleine/Saint-Lazare/Opéra) et à Pontoise dans le 95. Vous trouvez toutes
                     les informations nécessaires sur ma pratique sur mon autre site internet :
                     <br/> <a className="font-semibold pl-1 text-lg text-vert" href="https://www.psy95.paris"

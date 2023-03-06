@@ -1,5 +1,10 @@
 import React from 'react';
 import imageEfficace from "../assets/images/borddefalaise.jpeg";
+import accessSVG from "../assets/svg/access.svg";
+import stimulateSVG from "../assets/svg/energy-drink.svg";
+import linkSVG from "../assets/svg/link.svg";
+import { Card } from 'antd';
+const { Meta } = Card;
 
 const EmdrEfficace = () => {
     return (
@@ -13,7 +18,7 @@ const EmdrEfficace = () => {
                 </div>
             </div>
 
-            <div className="container mx-auto flex font-classic animate-appear mt-10">
+            <div className="container mx-auto flex font-classic animate-appear mt-10 xl:mb-10">
                 <div className="px-5 flex flex-col justify-center">
                     <h3 className=" py-5 pb-5 text-3xl text-bleu font-title font-semibold">
                         Comment fonctionne l’EMDR ?
@@ -23,34 +28,42 @@ const EmdrEfficace = () => {
                         traumatisme). <br/>
                         <span className="font-semibold underline">3 grandes actions</span> vont être mises en place :
                     </p>
-                    <div className="pb-3 flex items-center sm:text-lg 2xl:text-xl">
-                        <div
-                            className="bg-orange text-white font-semibold rounded-full flex justify-center items-center min-w-[30px] h-[30px] mr-2">1
-                        </div>
-                        <div>
-                            <span className="font-semibold">Accéder</span> au présent à un souvenir (c’est toujours au
-                            présent que l’on souffre du passé). C’est ce
-                            que l’on appelle la cible ce que j’aime à appeler « le désir de changement du patient ».
-                        </div>
+
+                    <div className="flex w-full justify-evenly my-10 flex-wrap">
+                        <Card
+                            hoverable
+                            style={{
+                                width: 250,
+                                fontFamily: 'Montserrat',
+                            }}
+                            cover={<img alt="example" src={accessSVG} className={"h-[180px] w-auto py-3 bg-orange"}/>}
+                        >
+                            <Meta title="Accéder" description="...au présent à un souvenir (c’est toujours au présent que l’on souffre du passé). C'est « le désir de changement du patient »." className={"text-base"} />
+                        </Card>
+                        <Card
+                            hoverable
+                            style={{
+                                width: 240,
+                                fontFamily: 'Montserrat',
+                            }}
+                            cover={<img alt="example" src={stimulateSVG} className={"h-[180px] w-auto py-3 bg-vert"}/>}
+                        >
+                            <Meta title="Stimuler" description="...le système de traitement de l’information
+                            dans le cerveau." className={"text-base"} />
+                        </Card>
+                        <Card
+                            hoverable
+                            style={{
+                                width: 240,
+                                fontFamily: 'Montserrat',
+                            }}
+                            cover={<img alt="example" src={linkSVG} className={"h-[180px] w-auto py-3 bg-vertflash"}/>}
+                        >
+                            <Meta title="Faire se lier" description="...avec d’autres informations adaptées une
+                            expérience isolée que l’on va retraiter." className={"text-base"}/>
+                        </Card>
                     </div>
-                    <div className="pb-3 flex items-center sm:text-lg 2xl:text-xl">
-                        <div
-                            className="bg-orange text-white font-semibold rounded-full flex justify-center items-center min-w-[30px] h-[30px] mr-2">2
-                        </div>
-                        <div>
-                            <span className="font-semibold">Stimuler</span> le système de traitement de l’information
-                            dans le cerveau.
-                        </div>
-                    </div>
-                    <div className="pb-3 mb-5 flex items-center sm:text-lg 2xl:text-xl">
-                        <div
-                            className="bg-orange text-white font-semibold rounded-full flex justify-center items-center min-w-[30px] h-[30px] mr-2">3
-                        </div>
-                        <div>
-                            <span className="font-semibold">Faire se lier</span> avec d’autres informations adaptées une
-                            expérience isolée que l’on va retraiter.
-                        </div>
-                    </div>
+
 
                     <p className="pb-3 sm:text-lg 2xl:text-xl">
                         Notre porte d’entrée sera alors ce que souhaite travailler de patient (cible/situation

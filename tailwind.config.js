@@ -10,6 +10,7 @@ module.exports = {
                 orangePale: '#fff6ed',
                 vertflash: '#1FC3AA',
                 vertflashPale: '#DCF9F5',
+                whitePale: '#F5F5F5',
             },
 
             fontFamily: {

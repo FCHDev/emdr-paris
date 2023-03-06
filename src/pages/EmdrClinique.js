@@ -3,7 +3,7 @@ import imageClinique from "../assets/images/ruralfindete.jpeg";
 
 const EmdrClinique = () => {
     return (
-        <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10">
+        <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10 mb-32">
             <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
                 <img className="absolute -top-[200px] w-full object-cover" src={imageClinique} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-40 ">
