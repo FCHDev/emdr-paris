@@ -18,7 +18,7 @@ import Footer from "./components/Footer";
 function App() {
     return (
         <BrowserRouter>
-            <div className="fixed w-full top-0">
+            <div className="menu fixed w-full top-0">
                 <TopNavBanner/>
                 <Navbar/>
             </div>

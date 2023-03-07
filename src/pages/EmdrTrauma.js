@@ -41,7 +41,7 @@ const EmdrTrauma = () => {
                         nécessaire d’évoquer les images, les souvenirs du traumatisme, sans pour autant s’attarder
                         dessus.
                     </p>
-                    <p className="pb-3 bg-vertflashPale p-3 rounded-xl text-lg font-semibold">
+                    <p className="pb-3 bg-vertflashPale p-3 rounded-xl sm:text-lg lg:text-xl 2xl:text-2xl">
                         Après la séance, le souvenir ne sera pas complètement oublié ; il sera vécu différemment, avec
                         du détachement, comme lorsqu’on fait un mauvais rêve. <br/>
                         Quand on se réveille, on réalise malgré le malaise ressenti que « ce n’était qu’un cauchemar »
@@ -50,19 +50,30 @@ const EmdrTrauma = () => {
                         Le souvenir de l’évènement ne surgit plus et ne vient plus « attaquer » les pensées.
                         Le corps peut alors commencer à se détendre.
                     </p>
-                    <p className="py-3 sm:text-lg 2xl:text-xl">
-                        Les gens n’ont pas envie d’aller dans leurs douleurs c’est normal. Bien leur montrer :
+                    <p className="pt-5 pb-3 sm:text-lg 2xl:text-xl">
+                        Personne n'a envie d'aller dans ses douleurs, c’est normal. Les patients doivent bien comprendre que :
                     </p>
-                    <ul className="pb-3 w-3/4 mx-auto sm:text-lg 2xl:text-xl">
-                        <li>✓ Qu’ils ne sont pas seul : je suis là auprès d’eux</li>
-                        <li>✓ Que nous sommes dans le présent aujourd’hui : le pire est passé</li>
-                        <li>✓ Qu'on n'est pas "maso" : on parle du trauma parce que l’on cherche à guérir. Si l’EMDR
-                            fait revivre les choses, surtout, il les retraite et après c’est fini.
-                        </li>
-                        <li>✓ Que l’EMDR n’est pas une thérapie violente mais une thérapie qui fait du bien.</li>
-                    </ul>
+                    <div className="flex pb-3 w-full mx-auto sm:text-lg 2xl:text-xl text-center">
+                        <div className="h-[100px] bg-vertflash w-1/4 flex flex-col justify-center items-center rounded-xl text-white mr-1 px-2">
+                            <p className="font-semibold text-lg">Ils ne sont pas seuls</p>
+                            <p className="italic text-base">Je suis là auprès d’eux</p>
+                        </div>
+                        <div className="h-[100px] bg-vert w-1/4 flex flex-col justify-center items-center rounded-xl text-white mr-1 px-2">
+                            <p className="font-semibold text-lg">Nous sommes dans le présent</p>
+                            <p className="italic text-base">Le pire est passé</p>
+                        </div>
+                        <div className="h-[100px] bg-vertflash w-1/4 flex flex-col justify-center items-center rounded-xl text-white mr-1 px-2">
+                            <p className="font-semibold text-lg">On n'est pas "maso"</p>
+                            <p className="italic text-base">Si l’EMDR
+                                fait revivre les choses, surtout, il les retraite et après c’est fini.</p>
+                        </div>
+                        <div className="h-[100px] bg-vert w-1/4 flex flex-col justify-center items-center rounded-xl text-white px-2">
+                            <p className="font-semibold text-lg">L’EMDR n’est pas une thérapie violente</p>
+                            <p className="italic text-base">...mais une thérapie qui fait du bien.</p>
+                        </div>
+                    </div>
                     <p className="pb-3 sm:text-lg 2xl:text-xl">
-                        Je me souviens avoir utiliser l’humour avec un patient qui ne « voulait pas y aller ». « J’ai
+                        Je me souviens avoir utiliser l’humour avec une patiente qui ne « voulait pas y aller ». « J’ai
                         trop peur » me disait-elle. Je lui répondis : « chère madame, ça fait 10 ans que vous vivez avec
                         ça alors on va lui dire tchao bye-bye à votre trauma. C’est bien ce que vous voulez ? Guérir ? »
                     </p>
@@ -70,11 +81,10 @@ const EmdrTrauma = () => {
                         De plus, nous disposons de tous un tas d’outils pour ne pas affronter la scène traumatique de
                         façon globale, ce qui pourrait faire trop peur. Nous pouvons travailler sur des
                         micros-cibles. <br/>
-                        Ca fait moins peur. <br/>
-                        Pas de l’hypnose car pas de modification de l’état de conscience.
+                        Ca fait moins peur.
                     </p>
-                    <p className="pb-3 sm:text-lg 2xl:text-xl">
-                        Vous ne serez pas seul à revivre vos traumatismes. <span className="font-semibold">Je serai là et nous ferons alliance.</span>
+                    <p className="pb-3 bg-vert text-white text-center p-3 rounded-xl sm:text-lg lg:text-xl 2xl:text-2xl">
+                        Vous ne serez pas seul à revivre vos traumatismes. <br/> <span className="font-semibold">Je serai là et nous ferons alliance.</span>
                     </p>
                 </div>
             </div>

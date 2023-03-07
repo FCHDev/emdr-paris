@@ -8,7 +8,7 @@ const { Meta } = Card;
 
 const EmdrEfficace = () => {
     return (
-        <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10">
+        <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10 mb-10">
             <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
                 <img className="absolute -top-[200px] w-full object-cover" src={imageEfficace} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-30 ">
@@ -29,11 +29,11 @@ const EmdrEfficace = () => {
                         <span className="font-semibold underline">3 grandes actions</span> vont être mises en place :
                     </p>
 
-                    <div className="flex w-full justify-evenly my-10 flex-wrap">
+                    <div className="flex w-3/4 mx-auto justify-evenly my-10 flex-wrap">
                         <Card
                             hoverable
                             style={{
-                                width: 250,
+                                width: 260,
                                 fontFamily: 'Montserrat',
                             }}
                             cover={<img alt="example" src={accessSVG} className={"h-[180px] w-auto py-3 bg-orange"}/>}
@@ -43,7 +43,7 @@ const EmdrEfficace = () => {
                         <Card
                             hoverable
                             style={{
-                                width: 240,
+                                width: 260,
                                 fontFamily: 'Montserrat',
                             }}
                             cover={<img alt="example" src={stimulateSVG} className={"h-[180px] w-auto py-3 bg-vert"}/>}
@@ -54,7 +54,7 @@ const EmdrEfficace = () => {
                         <Card
                             hoverable
                             style={{
-                                width: 240,
+                                width: 260,
                                 fontFamily: 'Montserrat',
                             }}
                             cover={<img alt="example" src={linkSVG} className={"h-[180px] w-auto py-3 bg-vertflash"}/>}

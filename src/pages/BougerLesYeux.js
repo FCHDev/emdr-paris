@@ -3,7 +3,7 @@ import EMDRYeux from "../assets/images/emdr.jpg"
 
 const BougerLesYeux = () => {
     return (
-        <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10">
+        <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10 mb-10">
             <div className="flex h-[300px] items-center font-classic overflow-hidden bg-orangePale mb-10 relative -z-10">
                 <div className="absolute top-0 bg-bleu w-1/2 h-full bg-opacity-30 text-white">
                     <h1 className="text-5xl font-title font-semibold pl-20 pt-20">
@@ -43,21 +43,21 @@ const BougerLesYeux = () => {
                         très pressée de commencer son traitement en EMDR.
                     </p>
                     <p className="pb-3 sm:text-lg 2xl:text-xl">
-                        <span className="text-orange font-semibold">Première séance.</span> Elle s’assoit et déclare : « alors on bouge les yeux ? Une amie a suivi une
+                        <span className="text-vertflash font-bold">Séance #1</span> : Elle s’assoit et déclare : « alors on bouge les yeux ? Une amie a suivi une
                         thérapie EMDR et elle dit que c’est magique le coup des yeux qui bougent ! » Je lui explique que
                         d’abord on va faire connaissance et que l’on déterminera ensemble si ses problématiques
                         actuelles gagneraient à être désensibilisées en EMDR.
                     </p>
                     <p className="pb-3 sm:text-lg 2xl:text-xl">
-                        <span className="text-orange font-semibold">Deuxième séance</span> : « quand est-ce qu’on commence ? ».
+                        <span className="text-vertflash font-bold">Séance #2</span> : « quand est-ce qu’on commence ? ».
                     </p>
                     <p className="pb-3 sm:text-lg 2xl:text-xl">
-                        <span className="text-orange font-semibold">Troisième séance</span> : la patiente revient à la charge : « quand est-ce qu’on commence ? ». Je
+                        <span className="text-vertflash font-bold">Séance #3</span> : la patiente revient à la charge : « quand est-ce qu’on commence ? ». Je
                         précise ici que cette patiente était une polytraumatisée et qu’il fallait donc dans un premier
                         temps la sécuriser, augmenter ses ressources etc…
                     </p>
                     <p className="pb-3 sm:text-lg 2xl:text-xl">
-                        <span className="text-orange font-semibold">Quatrième séance</span> elle se campe : « bon aujourd’hui vous me faites bouger les yeux… » Je répondis
+                        <span className="text-vertflash font-bold">Séance #4</span> : elle se campe : « bon aujourd’hui vous me faites bouger les yeux… » Je répondis
                         alors avec humour : « mais chère madame, à partir du moment où nous nous sommes parlé au
                         téléphone nous avons commencé en EMDR ». Et je lui expliqua alors l’importance d’apprendre à
                         nous connaître pour qu’elle puisse, si elle le décidai, me faire confiance.

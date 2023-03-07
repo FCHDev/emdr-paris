@@ -1,5 +1,6 @@
 import React from 'react';
 import imageMethode from "../assets/images/foretverte.jpg";
+import imagePlombier from "../assets/images/plombier.jpg";
 
 const EmdrMethode = () => {
     return (
@@ -38,14 +39,17 @@ const EmdrMethode = () => {
                         l’expérience alors que pour guérir il s’agit d’associer ensemble ces cinq dimensions de
                         l’expérience.
                     </p>
-                    <p className="pb-3 bg-vertflashPale p-3 rounded-xl text-lg">
-                        <span className="font-semibold">Cas clinique</span> <br/>Pierre est artisan plombier. Après une
-                        grosse journée de boulot il a eu un accident de voiture où il a fait plusieurs tonneaux sur
-                        l’autoroute… Il faisait nuit et ce qui le frappe en priorité dans cet évènement est la couleur
-                        rouge de la voiture qu’il a percuté. Depuis il n’arrive plus à conduire et surtout il évite tout
-                        ce qui est de couleur rouge…. <br/> <br/>
-                        Trauma simple = va vite = le patient n’est pas touché dans son identité.
-                    </p>
+                    <div className="flex h-[250px]">
+                        <img className="h-full" src={imagePlombier} alt="un plombier qui dépanne une machine à laver"/>
+                        <p className="bg-vertflashPale p-3 rounded-r-xl sm:text-lg lg:text-xl 2xl:text-2xl">
+                            <span className="font-semibold">Cas clinique</span> <br/>Pierre est artisan plombier. Après une
+                            grosse journée de boulot il a eu un accident de voiture où il a fait plusieurs tonneaux sur
+                            l’autoroute… Il faisait nuit et ce qui le frappe en priorité dans cet évènement est la couleur
+                            rouge de la voiture qu’il a percuté. Depuis il n’arrive plus à conduire et surtout il évite tout
+                            ce qui est de couleur rouge…. <br/> <br/>
+                            <span className="pb-10">Trauma simple = va vite = le patient n’est pas touché dans son identité.</span>
+                        </p>
+                    </div>
                     <p className="py-3 sm:text-lg 2xl:text-xl">
                         Ainsi quand on personne dit je souffre de ci, de ça, le thérapeute EMDR enfile ses lunettes
                         (modèle TAI, collection EMDR 😀) et comprendra les choses selon « l’approche EMDR » : vos
@@ -62,8 +66,8 @@ const EmdrMethode = () => {
                         mémoire adaptatifs).
                     </p>
                     <p className="py-3 sm:text-lg 2xl:text-xl">
-                        A la base de l’EMDR l’on retrouve un nom barbare : « <span className="underline">le traitement adaptatif de l’information</span> ».
-                        Rassurez-vous c’est simple à comprendre : tout ce que le cerveau reçois il l’enregistre et il le
+                        À la base de l’EMDR l’on retrouve un nom barbare : « <span className="underline">le traitement adaptatif de l’information</span> ».
+                        Rassurez-vous c’est simple à comprendre : tout ce que le cerveau reçoit il l’enregistre et il le
                         traite. Par exemple les « petits » traumas sont traités par le cerveau la nuit pendant la face
                         paradoxale du rêve (où le sujet qui dort bouge les yeux). Mais quand les perturbations sont trop
                         fortes cela peut ne pas suffire. C’est comme un tuyau de petit diamètre qui devrait distribuer
@@ -73,7 +77,7 @@ const EmdrMethode = () => {
                         solution adaptative aura pour conséquence d’aboutir à un rééquilibrage du corps, des pensées et
                         des émotions.
                     </p>
-                    <p className="pb-3 bg-vertflashPale p-3 rounded-xl text-lg">
+                    <p className="pb-3 bg-vertflashPale p-3 rounded-xl sm:text-lg lg:text-xl 2xl:text-2xl">
                         <span className="font-semibold">Exemple</span> <br/>Lors de notre première rencontre, Jeanne
                         évoque le décès de sa sœur survenu il y a dix ans. Elle dit que c’est toujours dur mais que le
                         temps a fait son œuvre. <br/>

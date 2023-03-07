@@ -8,7 +8,7 @@ const EmdrClinique = () => {
                 <img className="absolute -top-[200px] w-full object-cover" src={imageClinique} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-40 ">
                     <h1 className="text-5xl font-title font-semibold pl-32 pt-20">
-                        Comment se déroule une séance EMDR ?
+                        Indication-clinique
                     </h1>
                 </div>
             </div>
