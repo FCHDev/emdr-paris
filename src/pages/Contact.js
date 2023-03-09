@@ -15,6 +15,7 @@ const Contact = () => {
     });
     const [modal, setModal] = useState(false);
 
+    // console.log(test())
 
     // COMPORTEMENT
     // const sendEmail = (e) => {
