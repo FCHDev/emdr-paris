@@ -66,11 +66,11 @@ const Contact = () => {
                     </p>
 
                     {/*BOUTON TELEPHONE*/}
-                    <a href="tel:[+33]643655138">
+                    <a href="tel:[+33]633544582">
                         <button
                             className="flex items-center justify-center mx-auto bg-orange text-white font-classic font-bold px-5 py-2 rounded-2xl transition ease-in-out lg:hover:-translate-y-1 lg:hover:scale-105 duration-300 mt-5 mb-8 lg:mb-16 ">
                             <img src={smartphone} alt="telephone icon"/>
-                            <span className="ml-2 md:block hidden">06 43 65 51 38</span>
+                            <span className="ml-2 md:block hidden">06 33 54 45 82</span>
                         </button>
                     </a>
 
