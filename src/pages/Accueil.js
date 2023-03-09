@@ -7,10 +7,12 @@ import SVGTherapy from "../assets/svg/therapy.svg";
 import SVGStudies from "../assets/svg/open-book.svg";
 import SVGProximity from "../assets/svg/proximity.svg";
 import {NavLink} from "react-router-dom";
+import ScrollToTopOnMount from "../components/ScrollToTopOnMount";
 
 const Accueil = () => {
     return (
-        <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10 animate-appear">
+        <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10">
+            <ScrollToTopOnMount />
             <div className="w-full mx-auto relative -z-10">
                 <img className="h-[300px] w-full object-cover" src={imageAccueil} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-20 backdrop-blur-sm">
@@ -20,14 +22,14 @@ const Accueil = () => {
                 </div>
             </div>
 
-            <div className="container mx-auto mt-10 p-3 font-classic rounded-xl">
+            <div className="container mx-auto mt-10 p-3 font-classic rounded-xl animate-appear">
                 <h2 className="text-3xl text-bleu font-title font-semibold pb-8 text-center">Pourquoi j’aime être
                     thérapeute EMDR ?</h2>
                 <div className="flex w-full my-5">
                     <div
-                        className="w-1/2 flex items-center justify-center h-60 border my-5 shadow-md rounded-xl bg-white mr-2">
+                        className="w-1/2 flex items-center justify-center h-60 border my-5 shadow-md rounded-xl bg-white mr-4">
                         <div className="w-1/5 flex items-center justify-center bg-vert h-full rounded-l-xl">
-                            <img src={SVGTherapy} alt="checklist" className="h-[100px] mr-3"/>
+                            <img src={SVGTherapy} alt="checklist" className="h-[100px]"/>
                         </div>
                         <div className="w-4/5 px-3 flex flex-col justify-start h-full pt-5">
                             <h2 className="text-xl font-bold pb-3 text-vert">
@@ -42,7 +44,7 @@ const Accueil = () => {
                     <div
                         className="w-1/2 flex items-center justify-center h-60 border my-5 shadow-md rounded-xl bg-white">
                         <div className="w-1/5 flex items-center justify-center bg-vert h-full rounded-l-xl">
-                            <img src={SVGProtocol} alt="checklist" className="h-[100px] mr-3"/>
+                            <img src={SVGProtocol} alt="checklist" className="h-[100px]"/>
                         </div>
                         <div className="w-4/5 px-3 flex flex-col justify-start h-full pt-5">
                             <h2 className="text-xl font-bold pb-3 text-vert">
@@ -59,9 +61,9 @@ const Accueil = () => {
 
                 <div className="flex w-full my-5">
                     <div
-                        className="w-1/2 flex items-center justify-center h-60 border my-5 shadow-md rounded-xl bg-white mr-2">
+                        className="w-1/2 flex items-center justify-center h-60 border my-5 shadow-md rounded-xl bg-white mr-4">
                         <div className="w-1/5 flex items-center justify-center bg-vertflash h-full rounded-l-xl">
-                            <img src={SVGStudies} alt="checklist" className="h-[100px] mr-3"/>
+                            <img src={SVGStudies} alt="checklist" className="h-[100px]"/>
                         </div>
                         <div className="w-4/5 px-3 flex flex-col justify-start h-full pt-5">
                             <h2 className="text-xl font-bold pb-3 text-vertflash">
@@ -76,7 +78,7 @@ const Accueil = () => {
                     <div
                         className="w-1/2 flex items-center justify-center h-60 border my-5 shadow-md rounded-xl bg-white">
                         <div className="w-1/5 flex items-center justify-center bg-vertflash h-full rounded-l-xl">
-                            <img src={SVGProximity} alt="checklist" className="h-[100px] mr-3"/>
+                            <img src={SVGProximity} alt="checklist" className="h-[100px]"/>
                         </div>
                         <div className="w-4/5 px-3 flex flex-col justify-start h-full pt-5">
                             <h2 className="text-xl font-bold pb-3 text-vertflash h-[40px]">
@@ -96,11 +98,11 @@ const Accueil = () => {
                     personnes ne pas changer – ou pire s’enfoncer – était devenu quelque chose de difficile pour moi…
                 </p>
                 <p className="py-3 sm:text-lg 2xl:text-xl">
-                    J’utilise régulièrement deux métaphores pour rendre concret mon propos : <span
+                    J’utilise régulièrement 2 métaphores pour rendre concret mon propos : <span
                     className="font-semibold text-vert">le thérapeute-sherpa</span> ou
                     alors <span className="font-semibold text-vert">le soleil et le lac gelé</span> :
                 </p>
-                <div className="px-3 py-1 rounded-xl mt-3 mb-10 bg-whitePale">
+                <div className="px-3 py-1 rounded-xl mt-3 mb-10 backdrop-blur-xl bg-white bg-opacity-50">
                     <div className="flex items-center py-2 ">
                         <img src={sherpa} className="h-[230px] rounded-xl"
                              alt="sherpas qui portent des sacs en haute montagne"/>
@@ -182,8 +184,8 @@ const Accueil = () => {
                 </p>
             </div>
 
-            <div className="mt-10 p-3 font-classic bg-orangePale rounded-xl">
-                <h2 className="text-3xl text-bleu text-center font-title font-semibold pb-8">Avertissement</h2>
+            <div className="mt-10 p-3 font-classic bg-[#F6DACB]">
+                <h2 className="text-3xl text-bleu text-center font-title font-semibold py-5">Avertissement</h2>
                 <p className="container mx-auto pb-3 text-lg">Comme chaque domaine de connaissance l’approche EMDR a
                     développé un vocabulaire
                     propre. Mais

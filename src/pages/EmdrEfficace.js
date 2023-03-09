@@ -4,11 +4,13 @@ import accessSVG from "../assets/svg/access.svg";
 import stimulateSVG from "../assets/svg/energy-drink.svg";
 import linkSVG from "../assets/svg/link.svg";
 import { Card } from 'antd';
+import ScrollToTopOnMount from "../components/ScrollToTopOnMount";
 const { Meta } = Card;
 
 const EmdrEfficace = () => {
     return (
         <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10 mb-10">
+            <ScrollToTopOnMount />
             <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
                 <img className="absolute -top-[200px] w-full object-cover" src={imageEfficace} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-30 ">

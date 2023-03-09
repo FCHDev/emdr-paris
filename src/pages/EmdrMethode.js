@@ -1,10 +1,12 @@
 import React from 'react';
 import imageMethode from "../assets/images/foretverte.jpg";
 import imagePlombier from "../assets/images/plombier.jpg";
+import ScrollToTopOnMount from "../components/ScrollToTopOnMount";
 
 const EmdrMethode = () => {
     return (
         <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10">
+            <ScrollToTopOnMount />
             <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
                 <img className="absolute -top-[200px] w-full object-cover" src={imageMethode} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-30 ">
@@ -82,9 +84,9 @@ const EmdrMethode = () => {
                         évoque le décès de sa sœur survenu il y a dix ans. Elle dit que c’est toujours dur mais que le
                         temps a fait son œuvre. <br/>
                         Aujourd’hui elle pense à elle avec le sourire et est capable de se
-                        remémorer les bons moments passées avec sa sœur. Comme le dit <span className="underline">Jacques Rogue</span> : <span
+                        remémorer les bons moments passées avec sa sœur. Comme le dit <span className="underline">Jacques Rogue</span> : <br/><span
                         className="italic">« On ne peut ni
-                        changer, ni effacer le passé, mais on peut définitivement ne plus en souffrir. »</span> <br/>
+                        changer, ni effacer le passé, mais on peut définitivement ne plus en souffrir. »</span> <br/><br/>
                         Comprenons mieux : la thérapie EMDR ne changera pas les faits. Ce qui s’est produit s’est
                         produit et je
                         repense encore avec émotion à cette patiente, si courageuse qui, à la suite du décès de son mari

@@ -1,9 +1,11 @@
 import React from 'react';
 import imageTrauma from "../assets/images/fillemalheureusesursofa.jpg";
+import ScrollToTopOnMount from "../components/ScrollToTopOnMount";
 
 const EmdrTrauma = () => {
     return (
         <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10">
+            <ScrollToTopOnMount />
             <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
                 <img className="absolute -top-[200px] w-full object-cover" src={imageTrauma} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-30 ">
