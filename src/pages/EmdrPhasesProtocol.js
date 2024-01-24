@@ -8,7 +8,7 @@ const EmdrPhasesProtocol = () => {
             <ScrollToTopOnMount />
             <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
                 <img className="absolute -top-[200px] w-full object-cover" src={imageDecouvert} alt="accueil"/>
-                <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-70 backdrop-blur-md">
+                <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-70">
                     <h1 className="text-5xl font-title font-semibold pl-32 pt-20">
                         Les 8 phases du protocole
                     </h1>

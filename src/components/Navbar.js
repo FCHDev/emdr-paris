@@ -7,9 +7,10 @@ import iconQuoi from "../assets/svg/emdr2.svg"
 import iconComment from "../assets/svg/commentmarche.svg"
 import iconClinic from "../assets/svg/clinic.svg"
 import iconFaq from "../assets/svg/faq.svg"
-import iconDico from "../assets/svg/dico.svg"
+// import iconDico from "../assets/svg/dico.svg"
 import iconContact from "../assets/svg/contact.svg"
 import {NavLink} from "react-router-dom";
+import smartphone from "../assets/svg/smartphone.svg";
 
 const Navbar = () => {
     // un tableau d'objets qui contient les liens et les sous-liens de la navbar
@@ -52,7 +53,7 @@ const Navbar = () => {
                     "url": "/methode",
                 },
                 {
-                    "name": "Comment guérir un traumatisme ?",
+                    "name": "Faut-il revivre son trauma pour s’en débarrasser ?",
                     "url": "/traumatisme",
                 },
             ]
@@ -67,11 +68,11 @@ const Navbar = () => {
             "url": "/faq",
             "icon": iconFaq
         },
-        {
-            "name": "Dico EMDR",
-            "url": "/dico",
-            "icon": iconDico
-        },
+        // {
+        //     "name": "Dico EMDR",
+        //     "url": "/dico",
+        //     "icon": iconDico
+        // },
         {
             "name": "Contact",
             "url": "/contact",
@@ -102,7 +103,7 @@ const Navbar = () => {
 
                             : <NavLink to={link.url}>
                                 <div
-                                    className={`text-bleu inline-flex w-full justify-center items-center rounded-md bg-white px-2 2xl:px-3 py-2 2xl:text-lg text-sm font-semibold hover:bg-gray-50 focus:outline-none`}>
+                                    className={`text-bleu inline-flex w-full justify-center items-center rounded-md bg-white px-2 2xl:px-3 py-2 2xl:text-lg text-sm font-semibold hover:bg-gray-50 hover:text-vert focus:outline-none`}>
                                     <img className="h-[20px] w-auto pr-2" src={link.icon} alt={link.name}/>
                                     {link.name}
                                 </div></NavLink>
@@ -146,11 +147,13 @@ const Navbar = () => {
                     </Menu>
                 ))}
             </div>
-            <div className="2xl:w-48 xl:w-40 mr-3 2xl:mr-10">
+            <div className="xl:w-48 mr-3 2xl:mr-10">
+
                 <a className="" href="tel:[+33]633544582">
                     <button
                         className="w-full text-base xl:text-sm flex items-center justify-center mx-auto bg-orange text-white font-classic font-bold px-2 py-2 rounded-2xl transition ease-in-out lg:hover:-translate-y-1 lg:hover:scale-105 duration-300">
-                        <span className="ml-2 md:block hidden">06 33 54 45 82</span>
+                        <img src={smartphone} alt="telephone icon"/>
+                        <span className="text-xs ml-2 md:block hidden">06 33 54 45 82</span>
                     </button>
                 </a>
             </div>

@@ -10,7 +10,7 @@ const EmdrClinique = () => {
                 <img className="absolute -top-[200px] w-full object-cover" src={imageClinique} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-40 ">
                     <h1 className="text-5xl font-title font-semibold pl-32 pt-20">
-                        Indication-clinique
+                        Est-ce que l'EMDR est fait pour moi ?
                     </h1>
                 </div>
             </div>
@@ -18,7 +18,7 @@ const EmdrClinique = () => {
             <div className="container mx-auto flex font-classic animate-appear mt-10">
                 <div className="px-5 flex flex-col justify-center">
                     <h3 className=" py-5 pb-5 text-3xl text-bleu font-title font-semibold">
-                        L'EMDR n'est pas de l'hypnose
+                        EMDR : Pour quelles indications cliniques ?
                     </h3>
                     <p className="pb-3 sm:text-lg 2xl:text-xl">
                         C’est vous qui activer le processus de guérison. Vous en gardez le contrôle exclusif. Rien ne se
@@ -28,7 +28,7 @@ const EmdrClinique = () => {
                         fenêtre de tolérance).
                     </p>
                     <h3 className=" py-5 pb-5 text-3xl text-bleu font-title font-semibold">
-                        EMDR, effets secondaires ?
+                        EMDR : Effets secondaires et contre-indications
                     </h3>
                     <p className="pb-3 sm:text-lg 2xl:text-xl">
                         Il n’y en pas à proprement parler. Il existe tout une série de protocoles qui s’adapte à la

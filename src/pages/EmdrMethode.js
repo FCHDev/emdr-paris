@@ -1,5 +1,5 @@
 import React from 'react';
-import imageMethode from "../assets/images/foretverte.jpg";
+import imageMethode from "../assets/images/garssoleil.jpg";
 import imagePlombier from "../assets/images/plombier.jpg";
 import ScrollToTopOnMount from "../components/ScrollToTopOnMount";
 
@@ -9,7 +9,7 @@ const EmdrMethode = () => {
             <ScrollToTopOnMount />
             <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
                 <img className="absolute -top-[200px] w-full object-cover" src={imageMethode} alt="accueil"/>
-                <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-30 ">
+                <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-20">
                     <h1 className="text-5xl font-title font-semibold pl-32 pt-20">
                         C'est quoi la méthode EMDR ?
                     </h1>

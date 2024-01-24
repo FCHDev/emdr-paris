@@ -10,7 +10,7 @@ const EmdrTrauma = () => {
                 <img className="absolute -top-[200px] w-full object-cover" src={imageTrauma} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-30 ">
                     <h1 className="text-5xl font-title font-semibold pl-32 pt-20">
-                        Comment guérir un traumatisme ?
+                        Faut-il revivre son trauma pour s’en débarrasser ?
                     </h1>
                 </div>
             </div>
@@ -33,7 +33,7 @@ const EmdrTrauma = () => {
                         vu nous disposons d’un outil puissant capable de retraiter les informations.
                     </p>
                     <h3 className=" py-5 pb-5 text-3xl text-bleu font-title font-semibold">
-                        Faut-il revivre son trauma pour guérir ?
+                        Peut-on faire de l’EMDR si on a oublié ce qui s’est passé ?
                     </h3>
                     <p className="pb-3 sm:text-lg 2xl:text-xl">
                         Il n’y a pas besoin de « revivre » l’événement traumatique. Nous partons du moment présent. Et
@@ -43,7 +43,7 @@ const EmdrTrauma = () => {
                         nécessaire d’évoquer les images, les souvenirs du traumatisme, sans pour autant s’attarder
                         dessus.
                     </p>
-                    <p className="pb-3 bg-vertflashPale p-3 rounded-xl sm:text-lg lg:text-xl 2xl:text-2xl">
+                    <p className="pb-3 bg-vertflashPale p-3 rounded-xl sm:text-lg 2xl:text-2xl">
                         Après la séance, le souvenir ne sera pas complètement oublié ; il sera vécu différemment, avec
                         du détachement, comme lorsqu’on fait un mauvais rêve. <br/>
                         Quand on se réveille, on réalise malgré le malaise ressenti que « ce n’était qu’un cauchemar »

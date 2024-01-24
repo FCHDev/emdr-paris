@@ -62,7 +62,7 @@ const Contact = () => {
                         C’est pourquoi je vous invite à me joindre prioritairement <span className="font-semibold">par téléphone.</span>
                         <br/>
                         Je ne réponds pas au téléphone pendant mes consultations. <br/>
-                        Laissez moi un message vocal et je vous rappelerai au plus vite.
+                        Laissez moi un message vocal et je vous rappellerai au plus vite.
                     </p>
 
                     {/*BOUTON TELEPHONE*/}
