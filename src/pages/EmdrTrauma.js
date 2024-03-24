@@ -9,7 +9,7 @@ const EmdrTrauma = () => {
             <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
                 <img className="absolute -top-[200px] w-full object-cover" src={imageTrauma} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-30 ">
-                    <h1 className="text-5xl font-title font-semibold pl-32 pt-20">
+                    <h1 className="text-4xl lg:text-5xl font-title font-semibold lg:pl-32 pl-10 pt-20">
                         Faut-il revivre son trauma pour s’en débarrasser ?
                     </h1>
                 </div>
@@ -55,21 +55,21 @@ const EmdrTrauma = () => {
                     <p className="pt-5 pb-3 sm:text-lg 2xl:text-xl">
                         Personne n'a envie d'aller dans ses douleurs, c’est normal. Les patients doivent bien comprendre que :
                     </p>
-                    <div className="flex pb-3 w-full mx-auto sm:text-lg 2xl:text-xl text-center">
-                        <div className="h-[100px] bg-vertflash w-1/4 flex flex-col justify-center items-center rounded-xl text-white mr-1 px-2">
+                    <div className="flex pb-3 w-full mx-auto sm:text-lg 2xl:text-xl text-center flex-col lg:flex-row">
+                        <div className="my-2 lg:my-0 h-[100px] bg-vertflash lg:w-1/4 flex flex-col justify-center items-center rounded-xl text-white mr-1 px-2">
                             <p className="font-semibold text-lg">Ils ne sont pas seuls</p>
                             <p className="italic text-base">Je suis là auprès d’eux</p>
                         </div>
-                        <div className="h-[100px] bg-vert w-1/4 flex flex-col justify-center items-center rounded-xl text-white mr-1 px-2">
+                        <div className="my-2 lg:my-0 h-[100px] bg-vert lg:w-1/4 flex flex-col justify-center items-center rounded-xl text-white mr-1 px-2">
                             <p className="font-semibold text-lg">Nous sommes dans le présent</p>
                             <p className="italic text-base">Le pire est passé</p>
                         </div>
-                        <div className="h-[100px] bg-vertflash w-1/4 flex flex-col justify-center items-center rounded-xl text-white mr-1 px-2">
+                        <div className="my-2 lg:my-0 h-[100px] bg-vertflash lg:w-1/4 flex flex-col justify-center items-center rounded-xl text-white mr-1 px-2">
                             <p className="font-semibold text-lg">On n'est pas "maso"</p>
                             <p className="italic text-base">Si l’EMDR
                                 fait revivre les choses, surtout, il les retraite et après c’est fini.</p>
                         </div>
-                        <div className="h-[100px] bg-vert w-1/4 flex flex-col justify-center items-center rounded-xl text-white px-2">
+                        <div className="my-2 lg:my-0 h-[100px] bg-vert lg:w-1/4 flex flex-col justify-center items-center rounded-xl text-white px-2">
                             <p className="font-semibold text-lg">L’EMDR n’est pas une thérapie violente</p>
                             <p className="italic text-base">...mais une thérapie qui fait du bien.</p>
                         </div>

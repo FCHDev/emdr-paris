@@ -16,7 +16,7 @@ const Accueil = () => {
             <div className="w-full mx-auto relative -z-10">
                 <img className="h-[300px] w-full object-cover" src={imageAccueil} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-40">
-                    <div className="flex w-full h-3/4 pt-5 font-classic italic text-lg">
+                    <div className="flex w-full h-full lg:h-3/4 pt-5 font-classic italic text-sm lg:text-lg">
                         <span className="flex w-1/4 pl-20 font-title items-top pt-5">
                             "La nuit n’est jamais complète.<br/>
                         Il y a toujours puisque je le dis,<br/>
@@ -44,32 +44,32 @@ const Accueil = () => {
             <div className="container mx-auto mt-10 p-3 font-classic rounded-xl animate-appear">
                 <h2 className="text-3xl text-bleu font-title font-semibold pb-8 text-center">Pourquoi j’aime être
                     thérapeute EMDR ?</h2>
-                <div className="flex w-full my-5">
+                <div className="flex w-full my-5 h-max flex-col lg:flex-row items-center">
                     <div
-                        className="w-1/2 flex items-center justify-center h-56 border my-5 shadow-md rounded-xl bg-white mr-4">
+                        className="lg:w-1/2 flex items-center justify-center h-80 lg:h-56 border my-5 shadow-md rounded-xl bg-white lg:mr-4">
                         <div className="w-1/5 flex items-center justify-center bg-vert h-full rounded-l-xl">
-                            <img src={SVGTherapy} alt="checklist" className="h-[90px]"/>
+                            <img src={SVGTherapy} alt="checklist" className="h-[40px] lg:h-[90px]"/>
                         </div>
-                        <div className="w-4/5 px-3 flex flex-col justify-start h-full pt-5">
-                            <h2 className="text-xl font-bold pb-3 text-vert">
+                        <div className="w-4/5 px-3 flex flex-col justify-center h-full lg:pt-5">
+                            <h2 className="text-lg lg:text-xl font-bold pb-3 text-vert">
                                 Thérapie complète et efficace
                             </h2>
-                            <p className="xl:text-base">...qui <span className="font-bold">aide vraiment les personnes</span>. Malgré mon scepticisme de départ – ce « truc » de bouger les yeux
+                            <p className="text-base lg:text-base">...qui <span className="font-bold">aide vraiment les personnes</span>. Malgré mon scepticisme de départ – ce « truc » de bouger les yeux
                                 c’est bizarre quand même –
                                 je n’ai pû que m’incliner devant la solidité des effets cliniques positifs pour les
                                 patients.</p>
                         </div>
                     </div>
                     <div
-                        className="w-1/2 flex items-center justify-center h-56 border my-5 shadow-md rounded-xl bg-white">
+                        className="lg:w-1/2 flex items-center justify-center h-80 lg:h-56 border my-5 shadow-md rounded-xl bg-white">
                         <div className="w-1/5 flex items-center justify-center bg-vert h-full rounded-l-xl">
-                            <img src={SVGProtocol} alt="checklist" className="h-[90px]"/>
+                            <img src={SVGProtocol} alt="checklist" className="h-[40px] lg:h-[90px]"/>
                         </div>
-                        <div className="w-4/5 px-3 flex flex-col justify-start h-full pt-5">
-                            <h2 className="text-xl font-bold pb-3 text-vert">
+                        <div className="w-4/5 px-3 flex flex-col justify-center h-full lg:pt-5">
+                            <h2 className="text-lg lg:text-xl font-bold pb-3 text-vert">
                                 Protocole solide
                             </h2>
-                            <p className="text-base">Les avancées thérapeutiques sont pour
+                            <p className="text-base lg:text-base">Les avancées thérapeutiques sont pour
                                 ainsi dire <span className="font-bold">mesurables…</span> C’est comme pour un pilote de rallye : s’il n’a pas d’abord
                                 confiance
                                 dans sa
@@ -78,32 +78,32 @@ const Accueil = () => {
                     </div>
                 </div>
 
-                <div className="flex w-full my-5">
+                <div className="flex w-full my-5 h-max flex-col lg:flex-row items-center">
                     <div
-                        className="w-1/2 flex items-center justify-center h-56 border my-5 shadow-md rounded-xl bg-white mr-4">
+                        className="lg:w-1/2 flex items-center justify-center h-80 lg:h-56 border mb-5 lg:my-5 shadow-md rounded-xl bg-white lg:mr-4">
                         <div className="w-1/5 flex items-center justify-center bg-vertflash h-full rounded-l-xl">
-                            <img src={SVGStudies} alt="checklist" className="h-[90px]"/>
+                            <img src={SVGStudies} alt="checklist" className="h-[40px] lg:h-[90px]"/>
                         </div>
-                        <div className="w-4/5 px-3 flex flex-col justify-start h-full pt-5">
-                            <h2 className="text-xl font-bold pb-3 text-vertflash">
+                        <div className="w-4/5 px-3 flex flex-col justify-center h-full lg:pt-5">
+                            <h2 className="text-lg lg:text-xl font-bold pb-3 text-vertflash">
                                 Études & recherches
                             </h2>
-                            <p className="text-base">L’EMDR est la forme de thérapie qui, ses dernières années, a
+                            <p className="text-base lg:text-base">L’EMDR est la forme de thérapie qui, ses dernières années, a
                                 concentré <span className="font-bold">le plus d’études et de recherches.</span> <br/>Faire partie de la « communauté EMDR »
                                 c’est d’une part, ne pas être seule et d’autre part, avoir le sentiment de participer au
                                 sens de l’histoire…</p>
                         </div>
                     </div>
                     <div
-                        className="w-1/2 flex items-center justify-center h-56 border my-5 shadow-md rounded-xl bg-white">
+                        className="lg:w-1/2 flex items-center justify-center h-80 lg:h-56 border my-5 shadow-md rounded-xl bg-white lg:mr-4">
                         <div className="w-1/5 flex items-center justify-center bg-vertflash h-full rounded-l-xl">
-                            <img src={SVGProximity} alt="checklist" className="h-[90px]"/>
+                            <img src={SVGProximity} alt="checklist" className="h-[40px] lg:h-[90px]"/>
                         </div>
-                        <div className="w-4/5 px-3 flex flex-col justify-start h-full pt-5">
-                            <h2 className="text-xl font-bold pb-3 text-vertflash h-[40px]">
+                        <div className="w-4/5 px-3 flex flex-col justify-center h-full lg:pt-5">
+                            <h2 className="text-lg lg:text-xl font-bold pb-3 text-vertflash h-[40px]">
                                 Proximité avec le patient
                             </h2>
-                            <p className="text-base">Être proche du patient (psychiquement et physiquement pendant les
+                            <p className="text-base lg:text-base">Être proche du patient (psychiquement et physiquement pendant les
                                 désensibilisations). <span className="font-bold">Lui faire confiance, être dans l’espérance.</span> <br/>
                                 En EMDR il n’est pas rare de prononcer des phrases comme « je sais que c’est dur. Vous
                                 faîtes un super boulot. Vous êtes capable de traverser tout cela ».</p>
@@ -118,8 +118,8 @@ const Accueil = () => {
                     alors <span className="font-semibold text-vert">le thérapeute-sherpa</span> :
                 </p>
                 <div className="px-3 py-1 rounded-xl mb-5 backdrop-blur-xl bg-white bg-opacity-50">
-                    <div className="flex items-center py-1">
-                        <p className="pr-5 sm:text-lg 2xl:text-xl">
+                    <div className="flex-col-reverse flex lg:flex-row items-center py-1">
+                        <p className="lg:pr-5 text-base lg:text-lg 2xl:text-xl lg:pb-0 pb-3">
                             <span className="font-semibold text-vert">"Le soleil et le lac gelé" </span> : Le mal-être
                             psychologique s’apparente a un lac gelé. Tout a l’air mort, triste et figé à l’extérieur.
                             Mais
@@ -133,13 +133,13 @@ const Accueil = () => {
                             : « et vous allez mieux » ? Et au patient de répondre dans un sourire : « oui je vais mieux
                             ! ».
                         </p>
-                        <img src={soleil} className="h-[180px] rounded-xl"
+                        <img src={soleil} className="lg:h-[180px] rounded-xl pb-3 lg:pb-0"
                              alt="soleil au-dessus d'un lac gelé avec un enfant qui joue"/>
                     </div>
-                    <div className="flex items-center py-1">
-                        <img src={sherpa} className="h-[180px] rounded-xl"
+                    <div className="flex-col flex lg:flex-row items-center py-1">
+                        <img src={sherpa} className="lg:h-[180px] rounded-xl pb-3 lg:pb-0"
                              alt="sherpas qui portent des sacs en haute montagne"/>
-                        <p className="pl-5 sm:text-lg 2xl:text-xl">
+                        <p className="lg:pl-5 sm:text-lg 2xl:text-xl">
                             <span className="font-semibold text-vert">"Le thérapeute-sherpa"</span> : résoudre ses
                             traumas
                             c’est
@@ -201,7 +201,7 @@ const Accueil = () => {
             </div>
 
             <div className="px-3 py-5 font-classic bg-[#F6DACB]">
-                <p className="container mx-auto pb-3 text-lg">
+                <p className="container mx-auto pb-3 lg:text-lg">
                     Vous trouverez sur ce site différentes informations et cas cliniques concernant l’approche de la
                     thérapie EMDR. La rédaction du contenu n’engage que son auteur.
                     L’objectif de ce site n’est certainement pas de constituer une boîte à outils pour que vous puissiez
@@ -210,7 +210,7 @@ const Accueil = () => {
                     la rencontre entre un praticien dûment formé <NavLink to="/faq" className="font-semibold">(cf la FAQ - Qui peut pratiquer ?)</NavLink> et un patient
                     qui a envie de guérir… et qui possède en lui les ressources pour guérir.
                 </p>
-                <p className="container mx-auto text-lg">
+                <p className="container mx-auto lg:text-lg">
                     Je m’appelle <span className="font-semibold text-bleu">Étienne Duménil</span> et je suis psychologue
                     clinicien/psychanalyste et thérapeute EMDR.
                     J’exerce à Paris 9ème (Madeleine/Saint-Lazare/Opéra) et à Pontoise dans le 95. Vous trouvez toutes

@@ -14,7 +14,7 @@ const EmdrEfficace = () => {
             <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
                 <img className="absolute -top-[200px] w-full object-cover" src={imageEfficace} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-30 ">
-                    <h1 className="text-5xl font-title font-semibold pl-32 pt-20">
+                    <h1 className="text-4xl lg:text-5xl font-title font-semibold pl-32 pt-20">
                         Pourquoi l’EMDR est-il efficace ?
                     </h1>
                 </div>
@@ -37,6 +37,7 @@ const EmdrEfficace = () => {
                             style={{
                                 width: 260,
                                 fontFamily: 'Montserrat',
+                                marginBottom: '10px',
                             }}
                             cover={<img alt="example" src={accessSVG} className={"h-[180px] w-auto py-3 bg-orange"}/>}
                         >
@@ -47,6 +48,7 @@ const EmdrEfficace = () => {
                             style={{
                                 width: 260,
                                 fontFamily: 'Montserrat',
+                                marginBottom: '10px',
                             }}
                             cover={<img alt="example" src={stimulateSVG} className={"h-[180px] w-auto py-3 bg-vert"}/>}
                         >
@@ -58,6 +60,7 @@ const EmdrEfficace = () => {
                             style={{
                                 width: 260,
                                 fontFamily: 'Montserrat',
+                                marginBottom: '10px',
                             }}
                             cover={<img alt="example" src={linkSVG} className={"h-[180px] w-auto py-3 bg-vertflash"}/>}
                         >

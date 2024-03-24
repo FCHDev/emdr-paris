@@ -9,12 +9,12 @@ const BougerLesYeux = () => {
             <div
                 className="flex h-[300px] items-center font-classic overflow-hidden bg-orangePale relative -z-10">
                 <div className="absolute flex top-0 bg-bleu w-full h-full bg-opacity-30 text-white">
-                    <h1 className="w-1/2 text-5xl font-title font-semibold pl-20 pt-20">
+                    <h1 className="w-1/2 text-4xl lg:text-5xl font-title font-semibold pl-20 pt-20">
                         Juste bouger les yeux ?
                     </h1>
                 </div>
                 <img
-                    className="w-full min-w-[320px] h-auto object-cover"
+                    className="w-full min-w-[320px] h-full lg:h-auto object-cover"
                     src={EMDRYeux}
                     alt="visage en gros plan avec deux doigts levés devant nous"/>
 
@@ -36,7 +36,7 @@ const BougerLesYeux = () => {
                         allait faire simple… Alors essayons ceci : <br/><span className="italic">"Bouger les yeux pour aller mieux ?" <br/>"EMDR : guérir à
                         vue
                         d’œil ?" </span><br/>
-                        Bof… On va arrêter le markéting pour des choses plus sérieuses…
+                        Bof… On va arrêter le marketing pour des choses plus sérieuses…
                     </p>
                     <h3 className=" py-5 pb-5 text-3xl text-bleu font-title font-semibold">
                         L’EMDR est-ce simplement bouger les yeux pour aller mieux

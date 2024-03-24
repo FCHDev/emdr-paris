@@ -10,7 +10,7 @@ const EmdrMethode = () => {
             <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
                 <img className="absolute -top-[200px] w-full object-cover" src={imageMethode} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-20">
-                    <h1 className="text-5xl font-title font-semibold pl-32 pt-20">
+                    <h1 className="text-4xl lg:text-5xl font-title font-semibold lg:pl-32 pl-10 pt-20">
                         C'est quoi la méthode EMDR ?
                     </h1>
                 </div>
@@ -41,8 +41,8 @@ const EmdrMethode = () => {
                         l’expérience alors que pour guérir il s’agit d’associer ensemble ces cinq dimensions de
                         l’expérience.
                     </p>
-                    <div className="flex h-[250px]">
-                        <img className="h-full" src={imagePlombier} alt="un plombier qui dépanne une machine à laver"/>
+                    <div className="flex flex-col lg:flex-row">
+                        <img className="lg:h-[250px]" src={imagePlombier} alt="un plombier qui dépanne une machine à laver"/>
                         <p className="bg-vertflashPale p-3 rounded-r-xl sm:text-lg lg:text-xl 2xl:text-2xl">
                             <span className="font-semibold">Cas clinique</span> <br/>Pierre est artisan plombier. Après une
                             grosse journée de boulot il a eu un accident de voiture où il a fait plusieurs tonneaux sur

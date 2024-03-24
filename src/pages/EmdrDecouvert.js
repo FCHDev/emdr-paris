@@ -11,14 +11,14 @@ const EmdrDecouvert = () => {
             <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
                 <img className="absolute -top-[200px] w-full object-cover" src={imageDecouvert} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-70">
-                    <h1 className="text-5xl font-title font-semibold pl-32 pt-20">
+                    <h1 className="text-4xl lg:text-5xl font-title font-semibold lg:pl-32 pl-10 pt-20">
                         Comment l’EMDR a-t-il été découvert ?
                     </h1>
                 </div>
             </div>
 
-            <div className="container mx-auto flex items-start font-classic animate-appear mt-10">
-                <img className="max-h-[200px] w-auto rounded-full mt-5 mr-5" src={francineShapiro}
+            <div className="container mx-auto flex flex-wrap justify-center lg:justify-start lg:items-start font-classic animate-appear mt-10">
+                <img className="max-h-[150px] lg:max-h-[200px] w-auto rounded-full lg:mt-5 lg:mr-5" src={francineShapiro}
                      alt="Francine Shapiro, emdr"/>
                 <div className="px-5 flex flex-col justify-center">
                     <h3 className=" py-5 pb-5 text-3xl text-bleu font-title font-semibold">

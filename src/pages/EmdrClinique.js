@@ -9,7 +9,7 @@ const EmdrClinique = () => {
             <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
                 <img className="absolute -top-[200px] w-full object-cover" src={imageClinique} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-40 ">
-                    <h1 className="text-5xl font-title font-semibold pl-32 pt-20">
+                    <h1 className="text-4xl lg:text-5xl font-title font-semibold lg:pl-32 pl-10 pt-20">
                         Est-ce que l'EMDR est fait pour moi ?
                     </h1>
                 </div>

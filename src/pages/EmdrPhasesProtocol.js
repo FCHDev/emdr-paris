@@ -6,10 +6,10 @@ const EmdrPhasesProtocol = () => {
     return (
         <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10">
             <ScrollToTopOnMount />
-            <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
+            <div className="w-full mx-auto h-[200px] lg:h-[300px] overflow-y-hidden relative -z-10">
                 <img className="absolute -top-[200px] w-full object-cover" src={imageDecouvert} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-70">
-                    <h1 className="text-5xl font-title font-semibold pl-32 pt-20">
+                    <h1 className="text-4xl lg:text-5xl font-title font-semibold lg:pl-32 pl-10 pt-20">
                         Les 8 phases du protocole
                     </h1>
                 </div>
@@ -28,11 +28,11 @@ const EmdrPhasesProtocol = () => {
                     </p>
 
                     {/*PHASE 1*/}
-                    <div className="protocol group relative block bg-black mb-5 h-[400px]">
+                    <div className="protocol group relative block bg-black mb-5 lg:h-[400px]">
                         <img
                             alt="Developer"
                             src="https://images.unsplash.com/photo-1495653797063-114787b77b23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-                            className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+                            className="absolute inset-0 h-full w-full object-cover opacity-40 transition-opacity group-hover:opacity-50"
                         />
                         <div className="relative p-4 sm:p-6 lg:p-8">
                             <p className="text-sm font-medium uppercase tracking-widest text-vertflash mb-2">
@@ -41,11 +41,11 @@ const EmdrPhasesProtocol = () => {
 
                             <p className="text-xl font-bold text-white sm:text-2xl">Anamèse du patient</p>
 
-                            <div className="mt-10">
+                            <div className="lg:mt-10">
                                 <div
-                                    className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                                    className="lg:translate-y-8 transform lg:opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                                 >
-                                    <p className="text-white sm:text-lg 2xl:text-xl">
+                                    <p className="text-white text-base sm:text-lg 2xl:text-xl">
                                         Cette première phase est commune à toutes les formes de thérapie. On fait
                                         connaissance, on sonde la possibilité d’un transfert positif c’est-à-dire s’il
                                         peut y avoir une confiance réciproque entre le thérapeute et son patient.
@@ -65,11 +65,11 @@ const EmdrPhasesProtocol = () => {
                     </div>
 
                     {/*PHASE 2*/}
-                    <div className="group relative block bg-black mb-5 h-[400px]">
+                    <div className="protocol group relative block bg-black mb-5 lg:h-[400px]">
                         <img
                             alt="relaxation"
                             src="https://images.unsplash.com/photo-1489659639091-8b687bc4386e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2946&q=80"
-                            className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+                            className="absolute inset-0 h-full w-full object-cover opacity-40 transition-opacity group-hover:opacity-50"
                         />
                         <div className="relative p-4 sm:p-6 lg:p-8">
                             <p className="text-sm font-medium uppercase tracking-widest text-vertflash mb-2">
@@ -78,9 +78,9 @@ const EmdrPhasesProtocol = () => {
 
                             <p className="text-xl font-bold text-white sm:text-2xl">Préparation et relaxation</p>
 
-                            <div className="mt-10">
+                            <div className="lg:mt-10">
                                 <div
-                                    className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                                    className="lg:translate-y-8 transform lg:opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                                 >
                                     <p className="text-white sm:text-lg 2xl:text-xl">
                                         Le thérapeute EMDR apprendra à son patient quelques techniques d’auto-régulation émotionnelles
@@ -101,11 +101,11 @@ const EmdrPhasesProtocol = () => {
                     </div>
 
                     {/*PHASE 3*/}
-                    <div className="group relative block bg-black mb-5 h-[400px] transition-all hover:h-[700px]">
+                    <div className="group relative block bg-black mb-5 lg:h-[400px] transition-all lg:hover:h-[700px]">
                         <img
                             alt="cible de fléchettes"
                             src="https://images.unsplash.com/photo-1596008194705-2091cd6764d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2839&q=80"
-                            className="absolute inset-0 h-full w-full object-cover opacity-50 transition-opacity group-hover:opacity-30"
+                            className="absolute inset-0 h-full w-full object-cover opacity-40 transition-opacity group-hover:opacity-30"
                         />
                         <div className="relative p-4 sm:p-6 lg:p-8">
                             <p className="text-sm font-medium uppercase tracking-widest text-vertflash mb-2">
@@ -114,9 +114,9 @@ const EmdrPhasesProtocol = () => {
 
                             <p className="text-xl font-bold text-white sm:text-2xl">Évaluation de la cible</p>
 
-                            <div className="mt-10">
+                            <div className="lg:mt-10">
                                 <div
-                                    className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                                    className="lg:translate-y-8 transform lg:opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                                 >
                                     <div className="text-white">
                                         <p className="pb-3 sm:text-lg 2xl:text-xl">
@@ -171,11 +171,11 @@ const EmdrPhasesProtocol = () => {
                     </div>
 
                     {/*PHASE 4*/}
-                    <div className="group relative block bg-black mb-5 h-[400px]">
+                    <div className="group relative block bg-black mb-5 lg:h-[400px]">
                         <img
                             alt="relaxation"
                             src="https://images.unsplash.com/photo-1467015806515-b6effeb01f5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-                            className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+                            className="absolute inset-0 h-full w-full object-cover opacity-40 transition-opacity group-hover:opacity-50"
                         />
                         <div className="relative p-4 sm:p-6 lg:p-8">
                             <p className="text-sm font-medium uppercase tracking-widest text-vertflash mb-2">
@@ -184,9 +184,9 @@ const EmdrPhasesProtocol = () => {
 
                             <p className="text-xl font-bold text-white sm:text-2xl">Désensibilisation</p>
 
-                            <div className="mt-10">
+                            <div className="lg:mt-10">
                                 <div
-                                    className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                                    className="lg:translate-y-8 transform lg:opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                                 >
                                     <p className="pb-3 text-white sm:text-lg 2xl:text-xl">
                                         Le patient se fixe sur l'image traumatisante, l'idée négative et le ressenti corporel. Le
@@ -210,11 +210,11 @@ const EmdrPhasesProtocol = () => {
                     </div>
 
                     {/*PHASE 5*/}
-                    <div className="group relative block bg-black mb-5 h-[400px]">
+                    <div className="group relative block bg-black mb-5 lg:h-[400px]">
                         <img
                             alt="canapé en cuir marron"
                             src="https://images.unsplash.com/photo-1549187774-b4e9b0445b41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2874&q=80"
-                            className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+                            className="absolute inset-0 h-full w-full object-cover opacity-40 transition-opacity group-hover:opacity-50"
                         />
                         <div className="relative p-4 sm:p-6 lg:p-8">
                             <p className="text-sm font-medium uppercase tracking-widest text-vertflash mb-2">
@@ -223,9 +223,9 @@ const EmdrPhasesProtocol = () => {
 
                             <p className="text-xl font-bold text-white sm:text-2xl">Installation</p>
 
-                            <div className="mt-10">
+                            <div className="lg:mt-10">
                                 <div
-                                    className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                                    className="lg:translate-y-8 transform lg:opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                                 >
                                     <p className="text-white sm:text-lg 2xl:text-xl">
                                         Cette phase 5 vise à associer l'idée positive souhaitée par le patient à ce qu'il reste du
@@ -238,11 +238,11 @@ const EmdrPhasesProtocol = () => {
                     </div>
 
                     {/*PHASE 6*/}
-                    <div className="group relative block bg-black mb-5 h-[400px]">
+                    <div className="group relative block bg-black mb-5 lg:h-[400px]">
                         <img
                             alt="marche sur un tronc d'arbre"
                             src="https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-                            className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+                            className="absolute inset-0 h-full w-full object-cover opacity-40 transition-opacity group-hover:opacity-50"
                         />
                         <div className="relative p-4 sm:p-6 lg:p-8">
                             <p className="text-sm font-medium uppercase tracking-widest text-vertflash mb-2">
@@ -251,9 +251,9 @@ const EmdrPhasesProtocol = () => {
 
                             <p className="text-xl font-bold text-white sm:text-2xl">Bilan corporel (body-scan)</p>
 
-                            <div className="mt-10">
+                            <div className="lg:mt-10">
                                 <div
-                                    className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                                    className="lg:translate-y-8 transform lg:opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                                 >
                                     <p className="text-white sm:text-lg 2xl:text-xl">
                                         Le patient garde à l'esprit l'événement traumatisant et l'idée positive à laquelle il a été
@@ -267,11 +267,11 @@ const EmdrPhasesProtocol = () => {
                     </div>
 
                     {/*PHASE 7*/}
-                    <div className="group relative block bg-black mb-5 h-[400px]">
+                    <div className="group relative block bg-black mb-5 lg:h-[400px]">
                         <img
                             alt="drapeau à damier agité"
                             src="https://images.unsplash.com/photo-1590007530236-b51ff30f5d3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-                            className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+                            className="absolute inset-0 h-full w-full object-cover opacity-40 transition-opacity group-hover:opacity-50"
                         />
                         <div className="relative p-4 sm:p-6 lg:p-8">
                             <p className="text-sm font-medium uppercase tracking-widest text-vertflash mb-2">
@@ -280,9 +280,9 @@ const EmdrPhasesProtocol = () => {
 
                             <p className="text-xl font-bold text-white sm:text-2xl">Clôture</p>
 
-                            <div className="mt-10">
+                            <div className="lg:mt-10">
                                 <div
-                                    className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                                    className="lg:translate-y-8 transform lg:opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                                 >
                                     <p className="text-white sm:text-lg 2xl:text-xl">
                                         À la fin d'une séance, il est de la responsabilité du thérapeute de prendre le temps afin de
@@ -299,11 +299,11 @@ const EmdrPhasesProtocol = () => {
                     </div>
 
                     {/*PHASE 8*/}
-                    <div className="group relative block bg-black mb-5 h-[400px]">
+                    <div className="group relative block bg-black mb-5 lg:h-[400px]">
                         <img
                             alt="personne qui écrit sur un bloc-note"
                             src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2944&q=80"
-                            className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+                            className="absolute inset-0 h-full w-full object-cover opacity-40 transition-opacity group-hover:opacity-50"
                         />
                         <div className="relative p-4 sm:p-6 lg:p-8">
                             <p className="text-sm font-medium uppercase tracking-widest text-vertflash mb-2">
@@ -312,9 +312,9 @@ const EmdrPhasesProtocol = () => {
 
                             <p className="text-xl font-bold text-white sm:text-2xl">Réévaluation</p>
 
-                            <div className="mt-10">
+                            <div className="lg:mt-10">
                                 <div
-                                    className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+                                    className="lg:translate-y-8 transform lg:opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
                                 >
                                     <p className="text-white sm:text-lg 2xl:text-xl">
                                         Au début de la séance suivante le thérapeute vérifie chez son patient la stabilité des effets
