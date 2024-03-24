@@ -87,8 +87,10 @@ const Navbar = () => {
 
     return (
         <nav className="flex h-[90px] w-full justify-evenly items-center shadow-md bg-white">
-            <img className="pt-5 pl-2 h-28 xl:h-32" src={logoEMDR}
+            <a href="https://www.psy95.paris/" target="_blank" rel="noopener noreferrer">
+                <img className="pt-5 pl-2 h-28 xl:h-48" src={logoEMDR}
                  alt="Étienne DUMÉNIL psychologue spécialiste EMDR à Paris et Pontoise"/>
+            </a>
             <div className="flex w-full justify-center">
                 {links.map((link, index) => (
                     <Menu as="div" className="relative inline-block text-left font-classic" key={index}>

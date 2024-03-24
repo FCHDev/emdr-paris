@@ -35,7 +35,7 @@ const Accueil = () => {
                         une vie : la vie à se partager."</span>
                     </div>
                     <blockquote className="pl-16">
-                        <p className="italic font-title pt-10 h-1/4">Paul Éluard, extrait du recueil <span className="underline">Derniers poèmes d’amour</span> (écrit en 1951)</p>
+                        <p className="italic font-title text-sm pt-10 h-1/4">Paul Éluard, extrait du recueil <span className="underline">Derniers poèmes d’amour</span> (écrit en 1951)</p>
                     </blockquote>
 
                 </div>
