@@ -8,14 +8,27 @@ const EmdrDecouvert = () => {
     return (
         <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10  xl:mb-[20vh]">
             <ScrollToTopOnMount />
-            <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
-                <img className="absolute -top-[200px] w-full object-cover" src={imageDecouvert} alt="accueil"/>
-                <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-70">
-                    <h1 className="text-4xl lg:text-5xl font-title font-semibold lg:pl-32 pl-10 pt-20">
+
+            <div className="flex h-[300px] items-center font-classic overflow-hidden bg-orangePale relative -z-10">
+                <div className="absolute flex top-0 bg-bleu w-full h-full bg-opacity-75 text-white">
+                    <h1 className="w-3/4 text-4xl lg:text-5xl font-title font-semibold pl-10 pt-20">
                         Comment l’EMDR a-t-il été découvert ?
                     </h1>
                 </div>
+                <img
+                    className="w-full min-w-[320px] h-full lg:h-auto object-cover"
+                    src={imageDecouvert}
+                    alt="femme à lunettes"/>
             </div>
+
+            {/*<div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">*/}
+            {/*    <img className="absolute -top-[200px] w-full object-cover" src={imageDecouvert} alt="accueil"/>*/}
+            {/*    <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-70">*/}
+            {/*        <h1 className="text-4xl lg:text-5xl font-title font-semibold lg:pl-32 pl-10 pt-20">*/}
+            {/*            Comment l’EMDR a-t-il été découvert ?*/}
+            {/*        </h1>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
 
             <div className="container mx-auto flex flex-wrap justify-center lg:justify-start lg:items-start font-classic animate-appear mt-10">
                 <img className="max-h-[150px] lg:max-h-[200px] w-auto rounded-full lg:mt-5 lg:mr-5" src={francineShapiro}

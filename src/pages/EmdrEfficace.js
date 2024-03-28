@@ -11,14 +11,27 @@ const EmdrEfficace = () => {
     return (
         <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10 mb-10">
             <ScrollToTopOnMount />
-            <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
-                <img className="absolute -top-[200px] w-full object-cover" src={imageEfficace} alt="accueil"/>
-                <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-30 ">
-                    <h1 className="text-4xl lg:text-5xl font-title font-semibold pl-32 pt-20">
+
+            <div className="flex h-[300px] items-center font-classic overflow-hidden bg-orangePale relative -z-10">
+                <div className="absolute flex top-0 bg-bleu w-full h-full bg-opacity-30 text-white">
+                    <h1 className="w-3/4 text-4xl lg:text-5xl font-title font-semibold pl-10 pt-20">
                         Pourquoi l’EMDR est-il efficace ?
                     </h1>
                 </div>
+                <img
+                    className="w-full min-w-[320px] h-full lg:h-auto object-cover"
+                    src={imageEfficace}
+                    alt="paysage de montagne"/>
             </div>
+
+            {/*<div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">*/}
+            {/*    <img className="absolute h-full lg:-top-[200px] w-full object-cover" src={imageEfficace} alt="accueil"/>*/}
+            {/*    <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-30 ">*/}
+            {/*        <h1 className="text-4xl lg:text-5xl font-title font-semibold pl-32 pt-20">*/}
+            {/*            Pourquoi l’EMDR est-il efficace ?*/}
+            {/*        </h1>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
 
             <div className="container mx-auto flex font-classic animate-appear mt-10 xl:mb-10">
                 <div className="px-5 flex flex-col justify-center">

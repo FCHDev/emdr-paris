@@ -2,7 +2,7 @@ import React from 'react';
 
 const TopNavBanner = () => {
     return (
-        <div className="w-full h-[35px] bg-vert text-white flex justify-between items-center pl-40 pr-5">
+        <div className="w-full h-[35px] bg-vert text-white hidden lg:flex justify-between items-center pl-40 pr-5">
             <div className="font-hand text-base font-bold">Psychologue clinicien, EMDR, psychanalyste</div>
             <div className="font-classic text-sm">
                 <a href={"https://maps.app.goo.gl/1QoHdkCA5WJk8swbA"} target="_blank" rel="noreferrer">Pontoise-gare (Val d’Oise 95)</a> |

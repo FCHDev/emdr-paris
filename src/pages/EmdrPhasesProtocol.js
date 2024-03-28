@@ -6,9 +6,9 @@ const EmdrPhasesProtocol = () => {
     return (
         <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10">
             <ScrollToTopOnMount />
-            <div className="w-full mx-auto h-[200px] lg:h-[300px] overflow-y-hidden relative -z-10">
-                <img className="absolute -top-[200px] w-full object-cover" src={imageDecouvert} alt="accueil"/>
-                <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-70">
+            <div className="w-full mx-auto h-[300px] lg:h-[300px] overflow-y-hidden relative -z-10">
+                <img className="absolute lg:-top-[200px] w-full object-cover" src={imageDecouvert} alt="accueil"/>
+                <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-75">
                     <h1 className="text-4xl lg:text-5xl font-title font-semibold lg:pl-32 pl-10 pt-20">
                         Les 8 phases du protocole
                     </h1>

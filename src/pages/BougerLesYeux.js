@@ -6,10 +6,9 @@ const BougerLesYeux = () => {
     return (
         <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10 mb-10">
             <ScrollToTopOnMount />
-            <div
-                className="flex h-[300px] items-center font-classic overflow-hidden bg-orangePale relative -z-10">
+            <div className="flex h-[300px] items-center font-classic overflow-hidden bg-orangePale relative -z-10">
                 <div className="absolute flex top-0 bg-bleu w-full h-full bg-opacity-30 text-white">
-                    <h1 className="w-1/2 text-4xl lg:text-5xl font-title font-semibold pl-20 pt-20">
+                    <h1 className="w-1/2 text-4xl lg:text-5xl font-title font-semibold pl-10 pt-20">
                         Juste bouger les yeux ?
                     </h1>
                 </div>
@@ -17,7 +16,6 @@ const BougerLesYeux = () => {
                     className="w-full min-w-[320px] h-full lg:h-auto object-cover"
                     src={EMDRYeux}
                     alt="visage en gros plan avec deux doigts levés devant nous"/>
-
             </div>
 
 

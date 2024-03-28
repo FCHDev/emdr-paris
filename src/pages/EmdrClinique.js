@@ -6,14 +6,26 @@ const EmdrClinique = () => {
     return (
         <div className="flex flex-col justify-center mx-auto pt-[125px] pb-10 mb-32">
             <ScrollToTopOnMount />
-            <div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">
-                <img className="absolute -top-[200px] w-full object-cover" src={imageClinique} alt="accueil"/>
-                <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-40 ">
-                    <h1 className="text-4xl lg:text-5xl font-title font-semibold lg:pl-32 pl-10 pt-20">
+            <div className="flex h-[300px] items-center font-classic overflow-hidden bg-orangePale relative -z-10">
+                <div className="absolute flex top-0 bg-bleu w-full h-full bg-opacity-30 text-white">
+                    <h1 className="w-4/5 lg:w-1/2 text-4xl lg:text-5xl font-title font-semibold pl-10 pt-20">
                         Est-ce que l'EMDR est fait pour moi ?
                     </h1>
                 </div>
+                <img
+                    className="w-full min-w-[320px] h-full lg:h-auto object-cover"
+                    src={imageClinique}
+                    alt="femme qui se prend la tête entre les mains assise sur un canapé"/>
             </div>
+
+            {/*<div className="w-full mx-auto h-[300px] overflow-y-hidden relative -z-10">*/}
+            {/*    <img className="absolute -top-[200px] w-full object-cover" src={imageClinique} alt="accueil"/>*/}
+            {/*    <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-40 ">*/}
+            {/*        <h1 className="text-4xl lg:text-5xl font-title font-semibold lg:pl-32 pl-10 pt-20">*/}
+            {/*            Est-ce que l'EMDR est fait pour moi ?*/}
+            {/*        </h1>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
 
             <div className="container mx-auto flex font-classic animate-appear mt-10">
                 <div className="px-5 flex flex-col justify-center">

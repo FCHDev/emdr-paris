@@ -16,16 +16,16 @@ const Accueil = () => {
             <div className="w-full mx-auto relative -z-10">
                 <img className="h-[300px] w-full object-cover" src={imageAccueil} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-40">
-                    <div className="flex w-full h-full lg:h-3/4 pt-5 font-classic italic text-sm lg:text-lg">
-                        <span className="flex w-1/4 pl-20 font-title items-top pt-5">
-                            "La nuit n’est jamais complète.<br/>
+                    <div className="flex flex-col lg:flex-row w-full h-full lg:h-3/4 py-5 font-classic italic text-lg lg:text-lg">
+                        <span className="flex w-2/3 lg:w-1/4 pl-5 lg:pl-20 font-title items-top lg:pt-5">
+                        "La nuit n’est jamais complète.<br/>
                         Il y a toujours puisque je le dis,<br/>
                         Puisque je l’affirme,<br/>
                         Au bout du chagrin,<br/>
                         une fenêtre ouverte,<br/>
                         une fenêtre éclairée.<br/>
                         Il y a toujours un rêve qui veille,</span>
-                        <span className="flex w-1/4 pl-8 font-title items-top pt-5">
+                        <span className="hidden lg:flex w-1/3 lg:w-1/4 lg:pl-8 font-title items-top pt-5">
                         Désir à combler,<br/>
                         faim à satisfaire,<br/>
                         un cœur généreux,<br/>
@@ -33,16 +33,18 @@ const Accueil = () => {
                         une main ouverte,<br/>
                         des yeux attentifs,<br/>
                         une vie : la vie à se partager."</span>
+                        <span className="lg:hidden pl-5 text-xs">[...]</span>
+                        <p className="lg:hidden italic font-title text-sm pl-5 pt-3">Paul Éluard, extrait du recueil <span className="underline">Derniers poèmes d’amour</span> (écrit en 1951)</p>
                     </div>
-                    <blockquote className="pl-16">
-                        <p className="italic font-title text-sm pt-10 h-1/4">Paul Éluard, extrait du recueil <span className="underline">Derniers poèmes d’amour</span> (écrit en 1951)</p>
+                    <blockquote className="hidden lg:block lg:pl-16">
+                        <p className="italic font-title text-sm lg:pt-10">Paul Éluard, extrait du recueil <span className="underline">Derniers poèmes d’amour</span> (écrit en 1951)</p>
                     </blockquote>
 
                 </div>
             </div>
 
-            <div className="container mx-auto mt-10 p-3 font-classic rounded-xl animate-appear">
-                <h2 className="text-3xl text-bleu font-title font-semibold pb-8 text-center">Pourquoi j’aime être
+            <div className="container mx-auto mt-5 lg:mt-10 lg:p-3 font-classic rounded-xl animate-appear">
+                <h2 className="text-3xl text-bleu font-title font-semibold lg:pb-8 text-center">Pourquoi j’aime être
                     thérapeute EMDR ?</h2>
                 <div className="flex w-full my-5 h-max flex-col lg:flex-row items-center">
                     <div
@@ -153,7 +155,7 @@ const Accueil = () => {
                         </p>
                     </div>
                 </div>
-                <p className="pb-3 sm:text-lg 2xl:text-xl">
+                <p className="pb-3 px-3 sm:text-lg 2xl:text-xl">
                     <span className="font-semibold xl:text-2xl text-bleu">Augmenter leurs ressources</span> <br/>
                     Il est communément admis qu’à un psy « on vient dire ses problèmes ». On vient parler de ce qui ne
                     va pas. <br/>Je me rappelle avoir été très étonné lorsque en formation EMDR le formateur a commencé
@@ -163,11 +165,11 @@ const Accueil = () => {
                     problématique du patient, ses symptômes etc… Têtu le formateur enchaîna : <span className='italic'>« donc votre patient est
                     perturbé : qu’avez-vous mis en place pour le stabiliser émotionnellement ? »</span>.
                 </p>
-                <p className="pb-3 sm:text-lg 2xl:text-xl">
+                <p className="pb-3 px-3 sm:text-lg 2xl:text-xl">
                     Ce fut une grande leçon clinique pour moi : si la thérapie c’est pouvoir enfin dire ce qui ne va
                     pas, c’est tout autant améliorer et agrandir ce qui fonctionne déjà…
                 </p>
-                <p className="pb-3 bg-vertflashPale p-3 rounded-xl sm:text-lg 2xl:text-xl my-3">
+                <p className="bg-vertflashPale p-3 rounded-xl sm:text-lg 2xl:text-xl my-3">
                     <span className="font-semibold text-xl">Exemple</span> <br/>Accrochez-vous : un champion de
                     Tennis joue son premier match à Roland-Garros dans une semaine… Il possède un super coup droit mais
                     un mauvais revers. A votre avis, quel coup son entraineur va-t-il lui faire travailler pendant
@@ -182,17 +184,17 @@ const Accueil = () => {
                     zone et de décalage coup droit). Bien entendu que le revers sera à travailler mais pas tout de
                     suite.
                 </p>
-                <p className="py-3 sm:text-lg 2xl:text-xl">
+                <p className="p-3 sm:text-lg 2xl:text-xl">
                     <span className="font-semibold xl:text-2xl text-bleu">EMDR et psychanalyse : complémentaire ou opposés</span><br/>
                     En tant que psychanalyste je peux m’y retrouver. L’EMDR c’est comme une grande maison partagée : il
                     y a un règlement intérieur que l’on se doit de suivre, après chacun est libre et choisit la chambre
                     qu’il préfère.
                 </p>
-                <p className="pb-3 sm:text-lg 2xl:text-xl">
+                <p className="pb-3 px-3 sm:text-lg 2xl:text-xl">
                     J’ai accès à des associations libres d’une grande clarté. Pendant les phases de désensibilisations
                     il est demandé d’intervenir le moins possible, de ne pas influencer, de laisser faire.
                 </p>
-                <p className="pb-3 sm:text-lg 2xl:text-xl">
+                <p className="pb-3 px-3 sm:text-lg 2xl:text-xl">
                     Cela rejoint une intuition clinique qui se vérifie : plus on est près du corps, au niveau des
                     affects et mieux ça marche…C’est inscrit dans l’ADN des êtres humains : nous avons besoin de voir
                     pour croire. Donc pour qu’une croyance positive s’installe il faut d’abord faire ressentir dans le

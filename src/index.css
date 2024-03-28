@@ -63,3 +63,35 @@ blockquote p::before {
 blockquote p::after {
   content: '\201D';
 }
+
+/*EFFET SUR H2*/
+
+/*
+.prout::after {
+  content: '';
+  background-image: url(https://www.psy95.paris/images/sites/etienne_dumenil_v2/h2after_beige.svg?version=1);
+  background-size: 100%;
+  background-position: center left;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: calc(100% + 2rem);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  position: absolute;
+  display: block;
+}
+::after, ::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.prout {
+  position: relative;
+  display: inline-block;
+}
+
+ */
