@@ -113,8 +113,8 @@ const Accueil = () => {
                     </div>
                 </div>
 
-                    <span className="font-semibold xl:text-2xl text-bleu">Dire ce qui fait souffrir</span>
-                <p className="pb-3 sm:text-lg 2xl:text-xl">
+                    <span className="px-3 font-semibold xl:text-2xl text-bleu">Dire ce qui fait souffrir</span>
+                <p className="pb-3 px-3 sm:text-lg 2xl:text-xl">
                     J’utilise régulièrement 2 métaphores pour rendre concret mon propos : <span
                     className="font-semibold text-vert">le soleil et le lac gelé</span> ou
                     alors <span className="font-semibold text-vert">le thérapeute-sherpa</span> :
