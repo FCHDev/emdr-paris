@@ -16,7 +16,7 @@ const Accueil = () => {
             <div className="w-full mx-auto relative -z-10">
                 <img className="h-[300px] w-full object-cover" src={imageAccueil} alt="accueil"/>
                 <div className="absolute top-0 bg-bleu w-full h-full text-white bg-opacity-40">
-                    <div className="flex flex-col lg:flex-row w-full h-full lg:h-3/4 py-5 font-classic italic text-lg lg:text-lg">
+                    <div className="flex flex-col lg:flex-row w-full h-full lg:h-3/4 py-5 font-classic italic text-base lg:text-lg">
                         <span className="flex w-2/3 lg:w-1/4 pl-5 lg:pl-20 font-title items-top lg:pt-5">
                         "La nuit n’est jamais complète.<br/>
                         Il y a toujours puisque je le dis,<br/>
@@ -33,7 +33,7 @@ const Accueil = () => {
                         une main ouverte,<br/>
                         des yeux attentifs,<br/>
                         une vie : la vie à se partager."</span>
-                        <span className="lg:hidden pl-5 text-xs">[...]</span>
+                        <span className="lg:hidden pl-5">[...]</span>
                         <p className="lg:hidden italic font-title text-sm pl-5 pt-3">Paul Éluard, extrait du recueil <span className="underline">Derniers poèmes d’amour</span> (écrit en 1951)</p>
                     </div>
                     <blockquote className="hidden lg:block lg:pl-16">
