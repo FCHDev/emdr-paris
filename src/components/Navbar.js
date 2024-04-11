@@ -86,36 +86,44 @@ const Navbar = () => {
         {
             "name": "Juste bouger les yeux ?",
             "url": "/bougerlesyeux",
+            "icon": iconQuoi,
         },
         {
             "name": "Pourquoi l’EMDR est-il efficace ?",
             "url": "/emdrefficace",
+            "icon": iconQuoi,
         },
         {
             "name": "Comment l’EMDR a t-il été découvert ? ",
             "url": "/emdrdecouvert",
+            "icon": iconQuoi,
         },
 
         {
             "name": "Les 8 phases du protocole",
-                    "url": "/huitphases",
+            "url": "/huitphases",
+            "icon": iconComment,
         },
         {
             "name": "C'est quoi la méthode EMDR ?",
             "url": "/methode",
+            "icon": iconComment,
         },
         {
             "name": "Faut-il revivre son trauma pour s’en débarrasser ?",
             "url": "/traumatisme",
+            "icon": iconComment,
         },
 
         {
             "name": "Est-ce que l'EMDR est fait pour moi ?",
-            "url": "/indication-clinique"
+            "url": "/indication-clinique",
+            "icon": iconClinic
         },
         {
             "name": "- FAQ -",
-            "url": "/faq"
+            "url": "/faq",
+            "icon": iconFaq
         },
     ]
 
@@ -191,6 +199,7 @@ const Navbar = () => {
                 ))}
             </div>
 
+
             {/*MENU MOBILE*/}
             <div className="lg:hidden">
                 <Menu as="div" className="relative inline-block text-left font-classic">
@@ -223,7 +232,7 @@ const Navbar = () => {
                                                             to={link.url}
                                                             className={classNames(
                                                                 active ? 'bg-gray-100 text-gray-900 z-30' : 'text-gray-700',
-                                                                'block px-4 py-2 text-base z-30'
+                                                                'block flex px-3 py-2 text-base z-30'
                                                             )}
                                                             onClick={close}
                                                         >
@@ -242,7 +251,14 @@ const Navbar = () => {
                 </Menu>
             </div>
 
-
+            {/*BOUTON TELEPHONE*/}
+            <a href="tel:[+33]633544582">
+                <button
+                    className="lg:hidden flex items-center justify-center mx-auto bg-orange text-white font-classic font-bold px-3 py-2 rounded-2xl transition ease-in-out lg:hover:-translate-y-1 lg:hover:scale-105 duration-300 my-5 lg:mb-16 mr-3">
+                    <img src={smartphone} alt="telephone icon"/>
+                    <span className="ml-2 md:block lg:hidden">Appelez-moi</span>
+                </button>
+            </a>
 
             {/*ICON TEL*/}
             <div className="hidden lg:flex xl:w-48 mr-3 2xl:mr-10">
@@ -255,8 +271,10 @@ const Navbar = () => {
                 </a>
             </div>
 
+
+
             {/*ICON CONTACTEZ*/}
-            <div className="lg:hidden xl:w-48 mr-3 2xl:mr-10">
+            <div className="hidden xl:w-48 mr-3 2xl:mr-10">
                 <NavLink to="/contact">
                     <button
                         className="w-full text-base xl:text-sm flex items-center justify-center mx-auto bg-vertflash text-white font-classic font-bold px-2 py-2 rounded-2xl transition ease-in-out lg:hover:-translate-y-1 lg:hover:scale-105 duration-300">
