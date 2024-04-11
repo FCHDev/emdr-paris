@@ -1,5 +1,5 @@
 import React from 'react';
-import imageMethode from "../assets/images/garssoleil.jpg";
+import imageMethode from "../assets/images/man_sunset.jpg";
 import imagePlombier from "../assets/images/plombier.jpg";
 import ScrollToTopOnMount from "../components/ScrollToTopOnMount";
 
@@ -15,7 +15,7 @@ const EmdrMethode = () => {
                     </h1>
                 </div>
                 <img
-                    className="w-full min-w-[320px] h-full lg:h-auto object-cover"
+                    className="w-full min-w-[320px] h-full lg:h-auto lg:pt-28 object-cover"
                     src={imageMethode}
                     alt="coucher de soleil"/>
             </div>
